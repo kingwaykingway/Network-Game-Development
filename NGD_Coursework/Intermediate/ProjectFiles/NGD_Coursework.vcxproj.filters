@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NGD_Coursework.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5E9A8D4A-F88E-4638-9899-71321AE5E6BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NGD_Coursework.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NGD_CourseworkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{47CECE9F-B381-4EAA-A714-1D9A7BA8C61D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NGD_Coursework">
+      <UniqueIdentifier>{769BA389-13CF-4360-B833-0D852FD8F6F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NGD_Coursework\NGD_Coursework.Build.cs">
+      <Filter>Source\NGD_Coursework</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NGD_Coursework\NGD_Coursework.cpp">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NGD_Coursework\NGD_Coursework.h">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NGD_Coursework\NGD_CourseworkGameMode.cpp">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NGD_Coursework\NGD_CourseworkGameMode.h">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NGD_Coursework\NGD_CourseworkPawn.cpp">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NGD_Coursework\NGD_CourseworkPawn.h">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
