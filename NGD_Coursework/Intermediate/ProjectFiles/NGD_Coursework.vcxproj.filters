@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NGD_Coursework.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5E9A8D4A-F88E-4638-9899-71321AE5E6BC}</UniqueIdentifier>
+      <UniqueIdentifier>{08B10503-27CC-48C4-9288-13C0C05F1525}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NGD_Coursework.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{47CECE9F-B381-4EAA-A714-1D9A7BA8C61D}</UniqueIdentifier>
+      <UniqueIdentifier>{6476C707-9B89-402A-98A0-B5477C53E563}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NGD_Coursework">
-      <UniqueIdentifier>{769BA389-13CF-4360-B833-0D852FD8F6F7}</UniqueIdentifier>
+      <UniqueIdentifier>{BD892FF8-D547-43E1-95E0-25BCD0E925EC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NGD_Coursework\NGD_Coursework.Build.cs">
       <Filter>Source\NGD_Coursework</Filter>
