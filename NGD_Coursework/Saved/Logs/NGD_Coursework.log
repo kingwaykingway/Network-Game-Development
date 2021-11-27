@@ -1432,3 +1432,783 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.27-17.16.50:627][911]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.338ms to complete.
 [2021.11.27-17.16.51:788][ 31]LogSlate: Window 'Message Log' being destroyed
 [2021.11.27-17.16.51:801][ 31]LogSlate: Window 'Message Log' being destroyed
+[2021.11.27-17.18.13:617][ 23]LogSlate: Took 0.000517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.27-17.18.39:764][921]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" -game -rocket -progress
+[2021.11.27-17.18.40:378][921]Discovering modules, targets and source code for project...
+[2021.11.27-17.18.44:001][921]Binding IntelliSense data...
+[2021.11.27-17.18.47:329][921]Binding IntelliSense data... 100%
+[2021.11.27-17.18.47:329][921]Writing project files...
+[2021.11.27-17.18.55:986][921]Writing project files... 100%
+[2021.11.27-17.18.56:130][921]Candidate modules for hot reload:
+[2021.11.27-17.18.56:130][921]  NGD_Coursework
+[2021.11.27-17.18.56:133][921]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,8391 NGD_CourseworkEditor Win64 Development -Project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: New page: Compilation - 27 Nov 2021, 17:19:23
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development).
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Creating makefile for NGD_CourseworkEditor (no existing makefile)
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\2100929\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 5.6698428 seconds
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.27-17.19.23:646][921]CompilerResultsLog: Building 11 actions with 8 processes...
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [1/11] NGD_Coursework.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [2/11] NGD_CourseworkGameMode.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [3/11] PlayerPawnNetworkComponent.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [4/11] PlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [5/11] NGD_Coursework.init.gen.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [6/11] PlayerPawn.gen.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [7/11] NGD_CourseworkGameMode.gen.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [8/11] PlayerPawn.cpp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [9/11] UE4Editor-NGD_Coursework-8391.lib
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-8391.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-8391.exp
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:   [10/11] UE4Editor-NGD_Coursework-8391.dll
+[2021.11.27-17.19.23:646][921]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-8391.suppressed.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-8391.suppressed.exp
+[2021.11.27-17.19.23:647][921]CompilerResultsLog:   [11/11] NGD_CourseworkEditor.target
+[2021.11.27-17.19.23:647][921]CompilerResultsLog: Total time in Parallel executor: 17.70 seconds
+[2021.11.27-17.19.23:647][921]CompilerResultsLog: Total execution time: 27.38 seconds
+[2021.11.27-17.19.23:647][921]LogMainFrame: MainFrame: Module compiling took 27.521 seconds
+[2021.11.27-17.19.23:866][921]LogClass: Could not find existing class PlayerPawnNetworkComponent in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.11.27-17.19.23:869][921]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0004 seconds. Added 4 classes and 3 folders.
+[2021.11.27-17.19.23:870][921]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.27-17.19.23:916][921]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0109 seconds. Added 3584 classes and 844 folders.
+[2021.11.27-17.19.23:916][921]Display: HotReload took 27.8s.
+[2021.11.27-17.19.23:926][921]Warning: HotReload operation took 27.8s.
+[2021.11.27-17.19.24:201][921]LogVSAccessor: Warning: Couldn't goto line number '1' in '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/Public/PlayerPawnNetworkComponent.h'
+[2021.11.27-17.19.24:336][921]LogVSAccessor: Warning: Couldn't goto line number '1' in '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/Private/PlayerPawnNetworkComponent.cpp'
+[2021.11.27-17.19.24:340][921]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.11.27-17.19.48:702][266]Candidate modules for hot reload:
+[2021.11.27-17.19.48:702][266]  NGD_Coursework
+[2021.11.27-17.19.48:703][266]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,2163 NGD_CourseworkEditor Win64 Development -Project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.11.27-17.19.48:713][266]Warning: Starting HotReload took  0.2s.
+[2021.11.27-17.19.49:244][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.11.27-17.19.52:675][317]LogSavePackage: Moving '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Saved/FlyingExampleMap_Auto14C8EFB49461B3708D0DB5CB003A18FE9.tmp' to '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Saved/Autosaves/Game/FlyingCPP/Maps/FlyingExampleMap_Auto1.umap'
+[2021.11.27-17.19.52:688][317]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FlyingCPP/Maps/FlyingExampleMap' took 3.450
+[2021.11.27-17.19.52:688][317]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 3.450
+[2021.11.27-17.20.18:216][367]CompilerResultsLog: New page: Compilation - 27 Nov 2021, 17:20:18
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development).
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\2100929\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 6.0718895 seconds
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Building 11 actions with 8 processes...
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [1/11] NGD_Coursework.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [2/11] NGD_Coursework.init.gen.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [3/11] PlayerPawnNetworkComponent.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [4/11] PlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [5/11] NGD_CourseworkGameMode.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [6/11] PlayerPawn.gen.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [7/11] NGD_CourseworkGameMode.gen.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [8/11] PlayerPawn.cpp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [9/11] UE4Editor-NGD_Coursework-2163.lib
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2163.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2163.exp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [10/11] UE4Editor-NGD_Coursework-2163.dll
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2163.suppressed.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2163.suppressed.exp
+[2021.11.27-17.20.18:217][367]CompilerResultsLog:   [11/11] NGD_CourseworkEditor.target
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Total time in Parallel executor: 21.24 seconds
+[2021.11.27-17.20.18:217][367]CompilerResultsLog: Total execution time: 29.35 seconds
+[2021.11.27-17.20.18:217][367]LogMainFrame: MainFrame: Module compiling took 29.519 seconds
+[2021.11.27-17.20.18:384][367]LogClass: Could not find existing class PlayerPawnNetworkComponent in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.11.27-17.20.18:389][367]LogHotReload: Re-instancing PlayerPawnNetworkComponent after hot-reload.
+[2021.11.27-17.20.18:392][367]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.11.27-17.20.18:394][367]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.27-17.20.18:438][367]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0108 seconds. Added 3584 classes and 844 folders.
+[2021.11.27-17.20.18:438][367]Display: HotReload took 29.9s.
+[2021.11.27-17.20.33:457][ 57]LogRenderer: Reallocating scene render targets to support 1212x572 Format 10 NumSamples 1 (Frame:16647).
+[2021.11.27-17.20.33:503][ 58]LogRenderer: Reallocating scene render targets to support 1216x572 Format 10 NumSamples 1 (Frame:16649).
+[2021.11.27-17.26.41:172][607]Candidate modules for hot reload:
+[2021.11.27-17.26.41:172][607]  NGD_Coursework
+[2021.11.27-17.26.41:173][607]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,1093 NGD_CourseworkEditor Win64 Development -Project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.11.27-17.26.41:182][607]Warning: Starting HotReload took  0.0s.
+[2021.11.27-17.27.08:979][904]CompilerResultsLog: New page: Compilation - 27 Nov 2021, 17:27:08
+[2021.11.27-17.27.08:979][904]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development).
+[2021.11.27-17.27.08:979][904]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.11.27-17.27.08:979][904]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\2100929\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.27-17.27.08:980][904]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 6.6234129 seconds
+[2021.11.27-17.27.08:980][904]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.11.27-17.27.08:980][904]CompilerResultsLog: Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.27-17.27.08:980][904]CompilerResultsLog: Building 11 actions with 8 processes...
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [1/11] PlayerPawnNetworkComponent.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [2/11] NGD_CourseworkGameMode.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [3/11] NGD_Coursework.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [4/11] NGD_Coursework.init.gen.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [5/11] NGD_CourseworkGameMode.gen.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [6/11] PlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [7/11] PlayerPawn.gen.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [8/11] PlayerPawn.cpp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [9/11] UE4Editor-NGD_Coursework-1093.lib
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1093.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1093.exp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [10/11] UE4Editor-NGD_Coursework-1093.dll
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1093.suppressed.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1093.suppressed.exp
+[2021.11.27-17.27.08:980][904]CompilerResultsLog:   [11/11] NGD_CourseworkEditor.target
+[2021.11.27-17.27.08:980][904]CompilerResultsLog: Total time in Parallel executor: 18.88 seconds
+[2021.11.27-17.27.08:980][904]CompilerResultsLog: Total execution time: 27.64 seconds
+[2021.11.27-17.27.08:980][904]LogMainFrame: MainFrame: Module compiling took 27.812 seconds
+[2021.11.27-17.27.09:452][904]LogClass: Could not find existing class PlayerPawnNetworkComponent in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.11.27-17.27.09:457][904]LogHotReload: Re-instancing PlayerPawnNetworkComponent after hot-reload.
+[2021.11.27-17.27.09:461][904]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0005 seconds. Added 4 classes and 3 folders.
+[2021.11.27-17.27.09:462][904]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.27-17.27.09:508][904]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0114 seconds. Added 3584 classes and 844 folders.
+[2021.11.27-17.27.09:508][904]Display: HotReload took 28.4s.
+[2021.11.27-17.29.46:941][759]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" -game -rocket -progress
+[2021.11.27-17.29.47:455][759]Discovering modules, targets and source code for project...
+[2021.11.27-17.29.51:077][759]Binding IntelliSense data...
+[2021.11.27-17.29.54:303][759]Binding IntelliSense data... 100%
+[2021.11.27-17.29.54:303][759]Writing project files...
+[2021.11.27-17.30.03:060][759]Writing project files... 100%
+[2021.11.27-17.30.03:281][759]Candidate modules for hot reload:
+[2021.11.27-17.30.03:281][759]  NGD_Coursework
+[2021.11.27-17.30.03:282][759]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,2329 NGD_CourseworkEditor Win64 Development -Project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: New page: Compilation - 27 Nov 2021, 17:30:30
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development).
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Creating makefile for NGD_CourseworkEditor (no existing makefile)
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\2100929\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 5.8200017 seconds
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Building 13 actions with 8 processes...
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [1/13] NGD_Coursework.init.gen.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [2/13] PlayerPawnNetworkComponent.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [3/13] HostPlayerPawnNetworkComponent.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [4/13] NGD_Coursework.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [5/13] NGD_CourseworkGameMode.gen.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [6/13] NGD_CourseworkGameMode.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [7/13] HostPlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [8/13] PlayerPawn.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [9/13] PlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [10/13] PlayerPawn.gen.cpp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [11/13] UE4Editor-NGD_Coursework-2329.lib
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2329.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2329.exp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [12/13] UE4Editor-NGD_Coursework-2329.dll
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2329.suppressed.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2329.suppressed.exp
+[2021.11.27-17.30.30:425][759]CompilerResultsLog:   [13/13] NGD_CourseworkEditor.target
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Total time in Parallel executor: 17.20 seconds
+[2021.11.27-17.30.30:425][759]CompilerResultsLog: Total execution time: 27.00 seconds
+[2021.11.27-17.30.30:425][759]LogMainFrame: MainFrame: Module compiling took 27.149 seconds
+[2021.11.27-17.30.30:636][759]LogClass: Could not find existing class HostPlayerPawnNetworkComponent in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.11.27-17.30.30:640][759]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2021.11.27-17.30.30:641][759]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.27-17.30.30:686][759]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3585 classes and 844 folders.
+[2021.11.27-17.30.30:686][759]Display: HotReload took 27.4s.
+[2021.11.27-17.30.30:698][759]Warning: HotReload operation took 27.4s.
+[2021.11.27-17.30.30:984][759]LogVSAccessor: Warning: Couldn't goto line number '1' in '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/Public/HostPlayerPawnNetworkComponent.h'
+[2021.11.27-17.30.31:133][759]LogVSAccessor: Warning: Couldn't goto line number '1' in '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/Private/HostPlayerPawnNetworkComponent.cpp'
+[2021.11.27-17.30.31:137][759]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.11.27-17.30.31:292][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.11.27-17.30.31:294][760]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FlyingCPP/Maps/FlyingExampleMap' took 0.008
+[2021.11.27-17.39.21:130][662]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" -game -rocket -progress
+[2021.11.27-17.39.21:743][662]Discovering modules, targets and source code for project...
+[2021.11.27-17.39.25:366][662]Binding IntelliSense data...
+[2021.11.27-17.39.28:804][662]Binding IntelliSense data... 100%
+[2021.11.27-17.39.28:804][662]Writing project files...
+[2021.11.27-17.39.37:660][662]Writing project files... 100%
+[2021.11.27-17.39.37:881][662]Candidate modules for hot reload:
+[2021.11.27-17.39.37:881][662]  NGD_Coursework
+[2021.11.27-17.39.37:882][662]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,1927 NGD_CourseworkEditor Win64 Development -Project="//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: New page: Compilation - 27 Nov 2021, 17:40:05
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development).
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Creating makefile for NGD_CourseworkEditor (no existing makefile)
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\2100929\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 5.6067457 seconds
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Building 15 actions with 8 processes...
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [1/15] NGD_CourseworkGameMode.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [2/15] NGD_Coursework.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [3/15] PlayerPawn.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [4/15] HostPlayerPawnNetworkComponent.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': macro redefinition
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [5/15] PlayerPawnNetworkComponent.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': macro redefinition
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [6/15] ClientPlayerPawnNetworkComponent.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': macro redefinition
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [7/15] ClientPlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': macro redefinition
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [8/15] HostPlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': macro redefinition
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [9/15] NGD_Coursework.init.gen.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [10/15] NGD_CourseworkGameMode.gen.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [11/15] PlayerPawn.gen.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [12/15] PlayerPawnNetworkComponent.gen.cpp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h(611): warning C4005: 'TEXT': macro redefinition
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [13/15] UE4Editor-NGD_Coursework-1927.lib
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1927.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1927.exp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [14/15] UE4Editor-NGD_Coursework-1927.dll
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:      Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1927.suppressed.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-1927.suppressed.exp
+[2021.11.27-17.40.05:272][662]CompilerResultsLog:   [15/15] NGD_CourseworkEditor.target
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Total time in Parallel executor: 17.83 seconds
+[2021.11.27-17.40.05:272][662]CompilerResultsLog: Total execution time: 27.24 seconds
+[2021.11.27-17.40.05:272][662]LogMainFrame: MainFrame: Module compiling took 27.395 seconds
+[2021.11.27-17.40.05:503][662]LogClass: Could not find existing class ClientPlayerPawnNetworkComponent in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.11.27-17.40.05:507][662]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 6 classes and 3 folders.
+[2021.11.27-17.40.05:508][662]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.11.27-17.40.05:552][662]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0110 seconds. Added 3586 classes and 844 folders.
+[2021.11.27-17.40.05:552][662]Display: HotReload took 27.7s.
+[2021.11.27-17.40.05:566][662]Warning: HotReload operation took 27.7s.
+[2021.11.27-17.40.05:831][662]LogVSAccessor: Warning: Couldn't goto line number '1' in '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/Public/ClientPlayerPawnNetworkComponent.h'
+[2021.11.27-17.40.05:952][662]LogVSAccessor: Warning: Couldn't goto line number '1' in '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/Private/ClientPlayerPawnNetworkComponent.cpp'
+[2021.11.27-17.40.05:955][662]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.11.27-17.40.36:546][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.11.27-17.40.36:547][608]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FlyingCPP/Maps/FlyingExampleMap' took 0.008
+[2021.11.27-17.50.37:121][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.11.27-17.50.37:123][408]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FlyingCPP/Maps/FlyingExampleMap' took 0.008
+[2021.11.27-17.59.14:340][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.11.27-17.59.44:732][964]LogSlate: Window 'Save Content' being destroyed
+[2021.11.27-17.59.44:771][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.11.27-17.59.47:112][964]LogSavePackage: Moving '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Saved/FlyingExampleMap70848641418CD556250FDA952793380D.tmp' to '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Content/FlyingCPP/Maps/FlyingExampleMap.umap'
+[2021.11.27-17.59.47:150][964]LogFileHelpers: Saving map 'FlyingExampleMap' took 2.384
+[2021.11.27-17.59.49:122][964]LogSavePackage: Moving '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Saved/FlyingExampleMap_BuiltData24BD1F6443571568F0F9AC9C01F7819D.tmp' to '//StuHomeOdd/HomeDrive9$/2100929/GitHub/Network-Game-Development/NGD_Coursework/Content/FlyingCPP/Maps/FlyingExampleMap_BuiltData.uasset'
+[2021.11.27-17.59.49:219][964]LogSlate: Window 'NGD_Coursework - Unreal Editor' being destroyed
+[2021.11.27-17.59.49:347][964]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.27-17.59.49:347][964]LogContentValidation: Display: Validating World /Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap
+[2021.11.27-17.59.49:347][964]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FlyingCPP/Maps/FlyingExampleMap_BuiltData.FlyingExampleMap_BuiltData
+[2021.11.27-17.59.49:353][965]Cmd: QUIT_EDITOR
+[2021.11.27-17.59.49:353][965]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.11.27-17.59.49:364][965]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.11.27-17.59.49:375][965]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.11.27-17.59.49:375][965]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.11.27-17.59.49:375][965]LogAudio: Display: Audio Device unregistered from world 'FlyingExampleMap'.
+[2021.11.27-17.59.49:375][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.27-17.59.49:377][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.27-17.59.49:416][965]LogAudio: Display: Audio Device Manager Shutdown
+[2021.11.27-17.59.49:416][965]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.11.27-17.59.49:424][965]LogExit: Preparing to exit.
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922834D00] Windows
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922836700] Default__DeviceProfile
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CDD00] WindowsNoEditor
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922837A00] WindowsServer
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CCD00] WindowsClient
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922837000] IOS
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CEE00] iPadAir
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922835300] iPadAir2
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922732D00] IPadPro
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922732E00] iPadAir3
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922836E00] iPadAir4
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922732900] iPadMini2
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922834F00] iPadMini3
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922731900] iPadMini4
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F922835B00] iPadMini5
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E600] iPhone6
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E700] iPodTouch6
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CC900] iPhone7
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CC800] iPodTouch7
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273FE00] iPhone5S
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CF500] iPhone6Plus
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273D500] iPhone6S
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CF900] iPhone6SPlus
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273C400] iPhone7Plus
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CD900] iPhoneSE
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273F200] iPhone8
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CCB00] iPhone8Plus
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F92273D600] iPhoneX
+[2021.11.27-17.59.50:296][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CE000] iPhoneXS
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273EE00] iPhoneXSMax
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CD500] iPhoneXR
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273CB00] iPhone11
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CE800] iPhone11Pro
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273FC00] iPhone11ProMax
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CE300] iPhoneSE2
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E100] iPhone12Mini
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CE900] iPhone12
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CF100] iPhone12Pro
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CD000] iPhone12ProMax
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CE100] iPadPro105
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922837200] iPadPro129
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273CF00] iPadPro97
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922834800] iPadPro2_129
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E900] iPad5
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922835E00] iPad6
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273F700] iPad7
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922837400] iPad8
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273FD00] iPadPro11
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922835A00] iPadPro2_11
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273CE00] iPadPro3_129
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922834100] iPadPro4_129
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273F600] AppleTV
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922834B00] AppleTV4K
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273EF00] TVOS
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922834400] Mac
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273EC00] MacClient
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836C00] MacNoEditor
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273F300] MacServer
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922837700] Linux
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E300] LinuxAArch64
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922835800] LinuxNoEditor
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273D800] LinuxAArch64NoEditor
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922837900] LinuxClient
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273D300] LinuxAArch64Client
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836D00] LinuxServer
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273FA00] LinuxAArch64Server
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836200] Android
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273F400] Android_Low
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836400] Android_Mid
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273CA00] Android_High
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836B00] Android_Default
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273FB00] Android_Adreno4xx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836100] Android_Adreno5xx_Low
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E500] Android_Adreno5xx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922837300] Android_Adreno6xx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273DF00] Android_Adreno6xx_Vulkan
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922836A00] Android_Mali_T6xx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273E400] Android_Mali_T7xx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922835700] Android_Mali_T8xx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273F000] Android_Mali_G71
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922835100] Android_Mali_G72
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273DD00] Android_Mali_G72_Vulkan
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922837D00] Android_Mali_G76
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273FF00] Android_Mali_G76_Vulkan
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922834900] Android_Mali_G77
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F92273D000] Android_Mali_G77_Vulkan
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922834700] Android_Vulkan_SM5
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CF600] Android_PowerVR_G6xxx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F922730600] Android_PowerVR_GT7xxx
+[2021.11.27-17.59.50:297][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CDC00] Android_PowerVR_GE8xxx
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F922731700] Android_PowerVR_GM9xxx
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CD300] Android_PowerVR_GM9xxx_Vulkan
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F922732000] Android_TegraK1
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CEB00] Android_Unknown_Vulkan
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F922731E00] Lumin
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F9227CE200] Lumin_Desktop
+[2021.11.27-17.59.50:298][965]LogDeviceProfile: Device profile begin destroy: [000001F922730C00] HoloLens
+[2021.11.27-17.59.50:312][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:312][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:312][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2021.11.27-17.59.50:313][965]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.27-17.59.50:338][965]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.11.27-17.59.50:338][965]LogExit: Editor shut down
+[2021.11.27-17.59.50:338][965]LogExit: Transaction tracking system shut down
+[2021.11.27-17.59.50:342][965]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.11.27-17.59.51:029][965]LogExit: Object subsystem successfully closed.
+[2021.11.27-17.59.51:059][965]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module NGD_Coursework (810)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (805)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (802)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module SceneOutliner (800)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module AddContentDialog (798)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module WidgetCarousel (797)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module EditorWidgets (794)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module StatsViewer (792)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (790)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (788)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module AutomationWorker (786)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (784)
+[2021.11.27-17.59.51:118][965]LogModuleManager: Shutting down and abandoning module GooglePADEditor (782)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (780)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (778)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (776)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (774)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (772)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (770)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (768)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (766)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (764)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module WebMMedia (762)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (760)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (758)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module SequenceRecorder (757)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (754)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (752)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (750)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (748)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (746)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (744)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (742)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (740)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (738)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (736)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module PlanarCut (734)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module CharacterAI (732)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module TextureAlignMode (730)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module BspMode (728)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module GeometryMode (726)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module SmartSnapping (724)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module SessionServices (722)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MeshPaint (720)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (718)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module FoliageEdit (716)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module LandscapeEditor (714)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module MeshPaintMode (712)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (710)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ActorPickerMode (708)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module PlacementMode (706)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ViewportSnapping (704)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ViewportInteraction (702)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module ClothPainter (700)
+[2021.11.27-17.59.51:119][965]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (699)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module LogVisualizer (696)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module IntroTutorials (694)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (693)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (690)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (688)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (686)
+[2021.11.27-17.59.51:120][965]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (685)
+[2021.11.27-17.59.51:295][965]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (682)
+[2021.11.27-17.59.51:295][965]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (680)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (678)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (676)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module TraceInsights (674)
+[2021.11.27-17.59.51:296][965]MemoryProfiler: Shutdown
+[2021.11.27-17.59.51:296][965]NetworkingProfiler: Shutdown
+[2021.11.27-17.59.51:296][965]LoadingProfiler: Shutdown
+[2021.11.27-17.59.51:296][965]TimingProfiler: Shutdown
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module TraceServices (673)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (670)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (668)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module InputBindingEditor (666)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module MergeActors (664)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (662)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module LocalizationService (661)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module HardwareTargeting (658)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (656)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module UndoHistory (654)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module XmlParser (652)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module Blutility (650)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (648)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (647)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (644)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (643)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module SettingsEditor (640)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module ProjectLauncher (638)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module SessionFrontend (636)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module ProfilerClient (634)
+[2021.11.27-17.59.51:296][965]LogModuleManager: Shutting down and abandoning module DeviceManager (632)
+[2021.11.27-17.59.51:297][965]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (631)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module AutomationController (628)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module AutomationWindow (626)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module Layers (624)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (622)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module DetailCustomizations (620)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module PackagesDialog (618)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (616)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module Persona (614)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (613)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module AnimGraph (611)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module Kismet (608)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module KismetWidgets (607)
+[2021.11.27-17.59.51:330][965]LogModuleManager: Shutting down and abandoning module GraphEditor (604)
+[2021.11.27-17.59.51:331][965]LogModuleManager: Shutting down and abandoning module StructViewer (602)
+[2021.11.27-17.59.51:331][965]LogModuleManager: Shutting down and abandoning module ClassViewer (600)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module Toolbox (598)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module ModuleUI (596)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module OutputLog (594)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module GammaUI (592)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module Documentation (590)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module LiveCoding (588)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module LevelSequence (586)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (584)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module MovieScene (582)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (580)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module LauncherPlatform (578)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module AnalyticsET (576)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module PortalServices (574)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module PortalRpc (572)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module MessagingRpc (570)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (568)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module AudioMixerCore (567)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module AIModule (564)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module GameplayDebugger (563)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module AITestSuite (561)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module NavigationSystem (559)
+[2021.11.27-17.59.51:332][965]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (556)
+[2021.11.27-17.59.51:333][965]LogModuleManager: Shutting down and abandoning module ProfilerService (554)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module TaskGraph (552)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (550)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (548)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (546)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module CollectionManager (545)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ScreenshotTools (542)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module SynthesisEditor (540)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module Synthesis (538)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (536)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (534)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (532)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module GooglePAD (530)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module EditableMesh (528)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (526)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module CableComponent (524)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AudioCapture (522)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (521)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AssetTags (518)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (516)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (514)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AppleImageUtils (512)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module AndroidPermission (510)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (508)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (506)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module TemplateSequence (504)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MediaCompositing (502)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module ImgMedia (500)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (498)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (496)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (494)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (492)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (490)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (488)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MotoSynth (486)
+[2021.11.27-17.59.51:380][965]LogModuleManager: Shutting down and abandoning module MeshConversion (484)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module DynamicMesh (482)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (480)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometricObjects (478)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (476)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (475)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (472)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (470)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (468)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (466)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (464)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module ChaosNiagara (462)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module FractureEditor (460)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (459)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (456)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module BackChannel (454)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (452)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module AutomationUtils (450)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module AlembicImporter (448)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module AlembicLibrary (447)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCache (446)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (445)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (440)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (438)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (436)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (434)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module PluginBrowser (432)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (430)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (428)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module CurveEditorTools (426)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (424)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module CryptoKeys (422)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (420)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (418)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module UObjectPlugin (416)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (414)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (412)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module PluginUtils (410)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (408)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (406)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module GitSourceControl (404)
+[2021.11.27-17.59.51:381][965]LogModuleManager: Shutting down and abandoning module SourceControl (403)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (400)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (398)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (396)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (394)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (392)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module Paper2DEditor (390)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (388)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (386)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module SoundFields (382)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (380)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module SignificanceManager (378)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (376)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (374)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (370)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (368)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (366)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module ActorSequence (364)
+[2021.11.27-17.59.51:382][965]LogModuleManager: Shutting down and abandoning module TcpMessaging (362)
+[2021.11.27-17.59.51:483][965]LogModuleManager: Shutting down and abandoning module UdpMessaging (360)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (358)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (356)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (354)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (352)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (350)
+[2021.11.27-17.59.51:583][965]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (348)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (346)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (344)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (342)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapController (340)
+[2021.11.27-17.59.51:583][965]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (338)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module MagicLeapAR (336)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module AugmentedReality (335)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (332)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module SignalProcessing (329)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module NiagaraEditor (327)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module NiagaraCore (324)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (322)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (320)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module FacialAnimation (318)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module DataValidation (316)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (314)
+[2021.11.27-17.59.51:583][965]LogModuleManager: Shutting down and abandoning module LevelEditor (313)
+[2021.11.27-17.59.51:584][965]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (312)
+[2021.11.27-17.59.51:584][965]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (310)
+[2021.11.27-17.59.51:584][965]LogModuleManager: Shutting down and abandoning module MainFrame (308)
+[2021.11.27-17.59.51:584][965]LogModuleManager: Shutting down and abandoning module HotReload (307)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module ToolMenus (303)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module ContentBrowser (301)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module ContentBrowserData (300)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module TreeMap (297)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (294)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module AnimationSharing (292)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (290)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (288)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module Paper2D (286)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (284)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (282)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (276)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (274)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module MediaAssets (272)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module Overlay (270)
+[2021.11.27-17.59.51:585][965]LogModuleManager: Shutting down and abandoning module OverlayEditor (269)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module VREditor (266)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module StringTableEditor (264)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (262)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (260)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module FunctionalTesting (258)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (256)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (255)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module UMG (252)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module UMGEditor (251)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module MessageLog (249)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module SlateReflector (244)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module Slate (242)
+[2021.11.27-17.59.51:586][965]LogModuleManager: Shutting down and abandoning module SlateCore (240)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (238)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module UnrealEd (236)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module MRMesh (234)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (232)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (230)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module XAudio2 (228)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module Networking (226)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module Core (224)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module MaterialEditor (222)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module MovieSceneTools (220)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module CurveEditor (219)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module Sequencer (217)
+[2021.11.27-17.59.51:587][965]LogModuleManager: Shutting down and abandoning module EditorStyle (216)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module KismetCompiler (212)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MeshBuilder (210)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MeshUtilities (208)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (207)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (206)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (205)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (203)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (201)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (199)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MaterialBaking (195)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (190)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module DerivedDataCache (188)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module TargetPlatform (186)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (185)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (183)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (181)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (179)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (177)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (175)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (173)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (171)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (169)
+[2021.11.27-17.59.51:588][965]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (167)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (165)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module ImageWrapper (164)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (161)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (159)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (157)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (155)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (153)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (151)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (149)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (147)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (145)
+[2021.11.27-17.59.51:589][965]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (143)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (141)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (139)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.11.27-17.59.51:590][965]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.11.27-17.59.51:591][965]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module Chaos (104)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (102)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (101)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module AVEncoder (100)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2021.11.27-17.59.51:594][965]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2021.11.27-17.59.51:596][965]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2021.11.27-17.59.51:596][965]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2021.11.27-17.59.51:612][965]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2021.11.27-17.59.51:612][965]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2021.11.27-17.59.51:612][965]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0DA8EB4D-48F8-A7C6-CFE0-9D9A6F905926%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=a19e4c8a436aa09d6b6004baf93f14c1%7C%7C0d4d96f6-26a3-4dd7-91ed-5c7084ccb27f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2021.11.27-17.59.51:612][965]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0DA8EB4D-48F8-A7C6-CFE0-9D9A6F905926%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=a19e4c8a436aa09d6b6004baf93f14c1%7C%7C0d4d96f6-26a3-4dd7-91ed-5c7084ccb27f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2021.11.27-17.59.51:612][965]LogHttp: Display: cleaning up 2 outstanding Http requests.
+[2021.11.27-17.59.51:631][965]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2021.11.27-17.59.51:633][965]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module Media (71)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module ChaosCloth (60)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2021.11.27-17.59.51:635][965]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2021.11.27-17.59.51:639][965]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2021.11.27-17.59.51:640][965]LogXGEController: Cleaning working directory: C:/Users/2100929/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.11.27-17.59.51:640][965]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.11.27-17.59.51:641][965]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.11.27-17.59.51:641][965]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.11.27-17.59.51:647][965]LogD3D11RHI: Shutdown
+[2021.11.27-17.59.51:647][965]LogD3D11RHI: CleanupD3DDevice
+[2021.11.27-17.59.51:662][965]LogExit: Exiting.
+[2021.11.27-17.59.51:674][965]Log file closed, 11/27/21 17:59:51
