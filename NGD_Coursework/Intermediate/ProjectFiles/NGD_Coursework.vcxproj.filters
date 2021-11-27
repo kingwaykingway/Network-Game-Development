@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NGD_Coursework.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{08B10503-27CC-48C4-9288-13C0C05F1525}</UniqueIdentifier>
+      <UniqueIdentifier>{5B8C4CDB-25E0-438F-A246-880A7EC93C00}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NGD_Coursework.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6476C707-9B89-402A-98A0-B5477C53E563}</UniqueIdentifier>
+      <UniqueIdentifier>{87F58A0E-945C-4E14-ACC5-42D1B252D620}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NGD_Coursework">
-      <UniqueIdentifier>{BD892FF8-D547-43E1-95E0-25BCD0E925EC}</UniqueIdentifier>
+      <UniqueIdentifier>{7A7E6785-E99A-4578-A4A1-BB64550232A7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NGD_Coursework\NGD_Coursework.Build.cs">
       <Filter>Source\NGD_Coursework</Filter>
@@ -47,10 +47,10 @@
     <ClInclude Include="..\..\Source\NGD_Coursework\NGD_CourseworkGameMode.h">
       <Filter>Source\NGD_Coursework</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\NGD_Coursework\NGD_CourseworkPawn.cpp">
+    <ClCompile Include="..\..\Source\NGD_Coursework\PlayerPawn.cpp">
       <Filter>Source\NGD_Coursework</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\NGD_Coursework\NGD_CourseworkPawn.h">
+    <ClInclude Include="..\..\Source\NGD_Coursework\PlayerPawn.h">
       <Filter>Source\NGD_Coursework</Filter>
     </ClInclude>
   </ItemGroup>

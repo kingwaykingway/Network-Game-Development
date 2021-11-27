@@ -1,10 +1,10 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "NGD_CourseworkGameMode.h"
-#include "NGD_CourseworkPawn.h"
+#include "PlayerPawn.h"
 
 ANGD_CourseworkGameMode::ANGD_CourseworkGameMode()
 {
 	// set default pawn class to our flying pawn
-	DefaultPawnClass = ANGD_CourseworkPawn::StaticClass();
+	DefaultPawnClass = APlayerPawn::StaticClass();
 }

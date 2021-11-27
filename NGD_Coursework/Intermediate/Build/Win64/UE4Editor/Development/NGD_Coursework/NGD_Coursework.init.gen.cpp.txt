@@ -1,3 +1,3 @@
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\Definitions.NGD_Coursework.h
+\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\Definitions.NGD_Coursework.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

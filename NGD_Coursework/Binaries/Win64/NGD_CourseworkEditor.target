@@ -660,22 +660,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusMR.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -689,22 +673,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/SoundFields/Binaries/Win64/UE4Editor-SoundFields.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRInput.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRInputDevice.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVREditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2604,10 +2572,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2617,10 +2581,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/SoundFields/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3050,10 +3010,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/OculusVR.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
 			"Type": "UFS"
 		},
@@ -3067,10 +3023,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/SoundFields/SoundFields.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3158,6 +3110,10 @@
 			"Type": "NonUFS"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvnjavahl-1.dll",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvn_client-1.dll",
 			"Type": "NonUFS"
 		},
@@ -3195,10 +3151,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvn_wc-1.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/libsvnjavahl-1.dll",
 			"Type": "NonUFS"
 		},
 		{
@@ -3315,10 +3267,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/zlib1.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/iconv/_tbl_simple.so",
 			"Type": "NonUFS"
 		},
 		{
@@ -4166,6 +4114,10 @@
 			"Type": "NonUFS"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/iconv/_tbl_simple.so",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/license/APR-Iconv.license",
 			"Type": "NonUFS"
 		},
@@ -4282,14 +4234,6 @@
 			"Type": "DebugNonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/OpenVR/OpenVRv1_5_17/Win64/openvr_api.dll",
-			"Type": "NonUFS"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
 			"Type": "NonUFS"
 		},
@@ -4386,19 +4330,19 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Arrow.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Hovered.png",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeaderMenuButton_Hovered.png",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeaderMenuButton_Normal.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Arrow.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Hovered.png",
 			"Type": "UFS"
 		},
 		{
@@ -4482,11 +4426,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_Selected_16x.png",
+			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_SelectedBack_16x.png",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_SelectedBack_16x.png",
+			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_Selected_16x.png",
 			"Type": "UFS"
 		},
 		{
@@ -4650,6 +4594,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBoxLabelBorder.PNG",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Dark.png",
 			"Type": "UFS"
 		},
@@ -4671,10 +4619,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Special_Hovered.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Common/TextBoxLabelBorder.PNG",
 			"Type": "UFS"
 		},
 		{
@@ -4826,6 +4770,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabContentArea.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabWellSeparator.png",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Active.png",
 			"Type": "UFS"
 		},
@@ -4847,14 +4799,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Inactive.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabContentArea.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabWellSeparator.png",
 			"Type": "UFS"
 		},
 		{
@@ -4890,6 +4834,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/TabContentArea.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/TabWellSeparator.png",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Active.png",
 			"Type": "UFS"
 		},
@@ -4915,14 +4867,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Shape.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Docking/TabContentArea.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Docking/TabWellSeparator.png",
 			"Type": "UFS"
 		},
 		{
@@ -5258,6 +5202,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/ArrowBox.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/ArrowLeft.png",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/Arrow_D.png",
 			"Type": "UFS"
 		},
@@ -5271,14 +5223,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/Arrow_U.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/ArrowBox.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/ArrowLeft.png",
 			"Type": "UFS"
 		},
 		{
@@ -5318,15 +5262,15 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_L_E.png",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_LR.png",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_LR_E.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_L_E.png",
 			"Type": "UFS"
 		},
 		{
@@ -5402,6 +5346,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/ping.png",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/pin_glow.png",
 			"Type": "UFS"
 		},
@@ -5423,10 +5371,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/pin_stick.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/ping.png",
 			"Type": "UFS"
 		},
 		{

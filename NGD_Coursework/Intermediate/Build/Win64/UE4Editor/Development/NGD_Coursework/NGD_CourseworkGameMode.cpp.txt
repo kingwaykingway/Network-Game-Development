@@ -1,9 +1,9 @@
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\Definitions.NGD_Coursework.h
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\NGD_CourseworkGameMode.h
+\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\Definitions.NGD_Coursework.h
+\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\NGD_CourseworkGameMode.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Inc\NGD_Coursework\NGD_CourseworkGameMode.generated.h
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\NGD_CourseworkPawn.h
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Inc\NGD_Coursework\NGD_CourseworkPawn.generated.h
+\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Inc\NGD_Coursework\NGD_CourseworkGameMode.generated.h
+\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\PlayerPawn.h
+\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Inc\NGD_Coursework\PlayerPawn.generated.h

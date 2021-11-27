@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (\\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development).
+  Building NGD_CourseworkEditor...
+  Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 8 processes...
+    [1/9] NGD_Coursework.cpp
+    [2/9] NGD_Coursework.init.gen.cpp
+    [3/9] NGD_CourseworkGameMode.cpp
+    [4/9] NGD_CourseworkPawn.gen.cpp
+    [5/9] NGD_CourseworkGameMode.gen.cpp
+    [6/9] NGD_CourseworkPawn.cpp
+    [7/9] UE4Editor-NGD_Coursework-0001.lib
+       Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0001.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0001.exp
+    [8/9] UE4Editor-NGD_Coursework-0001.dll
+       Creating library \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0001.suppressed.lib and object \\StuHomeOdd\HomeDrive9$\2100929\GitHub\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0001.suppressed.exp
+    [9/9] NGD_CourseworkEditor.target
+  Total time in Parallel executor: 16.89 seconds
+  Total execution time: 19.05 seconds
