@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NGD_Coursework.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{89161882-B815-4CDA-816B-8A382397AD33}</UniqueIdentifier>
+      <UniqueIdentifier>{808FCC06-6111-403E-BC3D-623EAEB915A0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NGD_Coursework.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E9D12443-7BB3-4443-9024-7AEDF0523E21}</UniqueIdentifier>
+      <UniqueIdentifier>{E900FCE3-A2AE-46C4-8D87-9E0010B36C4D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NGD_Coursework">
-      <UniqueIdentifier>{ACC792C8-1DDB-4225-8E06-C83E4959BDCD}</UniqueIdentifier>
+      <UniqueIdentifier>{45328FBB-EA40-4A53-92BD-94C0D48B8127}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NGD_Coursework\ClientPlayerPawnNetworkComponent.cpp">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NGD_Coursework\ClientPlayerPawnNetworkComponent.h">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NGD_Coursework\HostPlayerPawnNetworkComponent.cpp">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NGD_Coursework\HostPlayerPawnNetworkComponent.h">
+      <Filter>Source\NGD_Coursework</Filter>
+    </ClInclude>
     <None Include="..\..\Source\NGD_Coursework\NGD_Coursework.Build.cs">
       <Filter>Source\NGD_Coursework</Filter>
     </None>
@@ -53,29 +65,11 @@
     <ClInclude Include="..\..\Source\NGD_Coursework\PlayerPawn.h">
       <Filter>Source\NGD_Coursework</Filter>
     </ClInclude>
-    <Filter Include="Source\NGD_Coursework\Private">
-      <UniqueIdentifier>{373124F8-74EE-4DE7-A247-EC1CE514AEEF}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\NGD_Coursework\Private\ClientPlayerPawnNetworkComponent.cpp">
-      <Filter>Source\NGD_Coursework\Private</Filter>
+    <ClCompile Include="..\..\Source\NGD_Coursework\PlayerPawnNetworkComponent.cpp">
+      <Filter>Source\NGD_Coursework</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\NGD_Coursework\Private\HostPlayerPawnNetworkComponent.cpp">
-      <Filter>Source\NGD_Coursework\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\NGD_Coursework\Private\PlayerPawnNetworkComponent.cpp">
-      <Filter>Source\NGD_Coursework\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\NGD_Coursework\Public">
-      <UniqueIdentifier>{886FCB50-0F29-4188-8995-528D1D49D69E}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\NGD_Coursework\Public\ClientPlayerPawnNetworkComponent.h">
-      <Filter>Source\NGD_Coursework\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NGD_Coursework\Public\HostPlayerPawnNetworkComponent.h">
-      <Filter>Source\NGD_Coursework\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NGD_Coursework\Public\PlayerPawnNetworkComponent.h">
-      <Filter>Source\NGD_Coursework\Public</Filter>
+    <ClInclude Include="..\..\Source\NGD_Coursework\PlayerPawnNetworkComponent.h">
+      <Filter>Source\NGD_Coursework</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

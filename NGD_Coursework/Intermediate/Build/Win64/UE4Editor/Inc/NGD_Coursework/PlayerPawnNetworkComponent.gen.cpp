@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "NGD_Coursework/Public/PlayerPawnNetworkComponent.h"
+#include "NGD_Coursework/PlayerPawnNetworkComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawnNetworkComponent() {}
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "PlayerPawnNetworkComponent.h" },
-		{ "ModuleRelativePath", "Public/PlayerPawnNetworkComponent.h" },
+		{ "ModuleRelativePath", "PlayerPawnNetworkComponent.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::StaticCppClassTypeInfo = {
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawnNetworkComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerPawnNetworkComponent, 2610528762);
+	IMPLEMENT_CLASS(UPlayerPawnNetworkComponent, 3156731790);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<UPlayerPawnNetworkComponent>()
 	{
 		return UPlayerPawnNetworkComponent::StaticClass();

@@ -10,5 +10,11 @@ public class NGD_CourseworkTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("NGD_Coursework");
+
+		if (Target.Platform == UnrealTargetPlatform.Win64)
+		{
+			bOverrideBuildEnvironment = true;
+			AdditionalCompilerArguments = "/Zm2000";
+		}
 	}
 }

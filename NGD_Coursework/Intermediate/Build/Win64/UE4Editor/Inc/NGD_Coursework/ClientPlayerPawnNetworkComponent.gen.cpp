@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "NGD_Coursework/Public/ClientPlayerPawnNetworkComponent.h"
+#include "NGD_Coursework/ClientPlayerPawnNetworkComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,7 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawnNetworkComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UClientPlayerPawnNetworkComponent_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "ClientPlayerPawnNetworkComponent.h" },
-		{ "ModuleRelativePath", "Public/ClientPlayerPawnNetworkComponent.h" },
+		{ "ModuleRelativePath", "ClientPlayerPawnNetworkComponent.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UClientPlayerPawnNetworkComponent_Statics::StaticCppClassTypeInfo = {
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawnNetworkComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UClientPlayerPawnNetworkComponent, 227103867);
+	IMPLEMENT_CLASS(UClientPlayerPawnNetworkComponent, 3338942810);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<UClientPlayerPawnNetworkComponent>()
 	{
 		return UClientPlayerPawnNetworkComponent::StaticClass();

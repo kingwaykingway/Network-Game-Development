@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"\\\\StuHomeOdd\\HomeDrive9$\\2100929\\GitHub\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_Coursework\\NGD_Coursework.Build.cs",
-		"\\\\StuHomeOdd\\HomeDrive9$\\2100929\\GitHub\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_Coursework.Target.cs",
-		"\\\\StuHomeOdd\\HomeDrive9$\\2100929\\GitHub\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_CourseworkEditor.Target.cs"
+		"D:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_Coursework\\NGD_Coursework.Build.cs",
+		"D:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_Coursework.Target.cs",
+		"D:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_CourseworkEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }
