@@ -23,9 +23,7 @@ void UPlayerPawnNetworkComponent::BeginPlay()
 	m_owner = GetOwner<APawn>();
 
 	// connect
-	m_address.sin_family = AF_INET;
-	m_address.sin_port = htons(m_port);
-	m_address.sin_addr.s_addr = inet_addr(m_ip);
+	Connect();
 
 }
 
@@ -44,17 +42,11 @@ void UPlayerPawnNetworkComponent::UDPUpdate(float DeltaTime)
 	// No definition here as UPlayerPawnNetworkComponent is effectively abstract. 
 }
 
-//bool UPlayerPawnNetworkComponent::Connect(FString ip, int32 port)
-//{
-//	return false;
-//}
-//
-//bool UPlayerPawnNetworkComponent::Send(FString msg)
-//{
-//	return false;
-//}
-//
-//bool UPlayerPawnNetworkComponent::Receive()
-//{
-//	return false;
-//}
+bool UPlayerPawnNetworkComponent::Connect()
+{
+	m_address.sin_family = AF_INET;
+	m_address.sin_port = htons(m_port);
+	m_address.sin_addr.s_addr = inet_addr(TCHAR_TO_ANSI(*m_ip));
+
+	return false;
+}

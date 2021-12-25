@@ -19,11 +19,12 @@ struct UDPMessage
 	FRotator rotation;
 };
 
-enum TCPEventType
+enum EventType {  Fire, Hit, Death  };
+
+struct TCPMessage
 {
-	Fire, 
-	Hit, 
-	Death
+	int playerID;
+	EventType eventType;
 };
 
 UCLASS( Abstract, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -42,7 +43,9 @@ protected:
 	virtual void UDPUpdate(float DeltaTime);
 
 	//bool Connect(FString ip, int32 port);
+	bool Connect();
 	//bool Send(FString msg);
+	//bool Send();
 	//bool Receive();
 
 	APawn* m_owner;
@@ -53,10 +56,12 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
+	FString m_ip;
+	int32 m_port;
+
 	FSocket* m_socket;
-	//FString m_ip;
-	//int32 m_port;
 	sockaddr_in m_address;
+
 	//TSharedPtr<FReceiveThread> receiveThread;
 		
 };

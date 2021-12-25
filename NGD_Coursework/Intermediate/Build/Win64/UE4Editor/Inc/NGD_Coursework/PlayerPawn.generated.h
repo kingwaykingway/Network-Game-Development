@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAPlayerPawn(); \
 	friend struct Z_Construct_UClass_APlayerPawn_Statics; \
 public: \
-	DECLARE_CLASS(APlayerPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NGD_Coursework"), NO_API) \
+	DECLARE_CLASS(APlayerPawn, APawn, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/NGD_Coursework"), NO_API) \
 	DECLARE_SERIALIZER(APlayerPawn)
 
 
@@ -30,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAPlayerPawn(); \
 	friend struct Z_Construct_UClass_APlayerPawn_Statics; \
 public: \
-	DECLARE_CLASS(APlayerPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NGD_Coursework"), NO_API) \
+	DECLARE_CLASS(APlayerPawn, APawn, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/NGD_Coursework"), NO_API) \
 	DECLARE_SERIALIZER(APlayerPawn)
 
 

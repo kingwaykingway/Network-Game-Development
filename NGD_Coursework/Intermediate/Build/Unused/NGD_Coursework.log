@@ -1,10 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\Network-Game-Development).
-  Creating makefile for NGD_CourseworkEditor (game project files are newer)
-  Parsing headers for NGD_CourseworkEditor
-    Running UnrealHeaderTool "D:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for NGD_CourseworkEditor in 37.5006053 seconds
   Building NGD_CourseworkEditor...
   Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 8 processes...
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): warning MSB5021: 终止任务可执行文件“cmd”及其子进程，因为已取消生成。
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB4181: “Exec”任务返回了 false，但未记录错误。
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-NGD_Coursework-0035.lib
+       Creating library D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.lib and object D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.exp
+    [2/3] UE4Editor-NGD_Coursework-0035.dll
+       Creating library D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.suppressed.lib and object D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.suppressed.exp
+    [3/3] NGD_CourseworkEditor.target
+  Total time in Parallel executor: 1.50 seconds
+  Total execution time: 3.62 seconds
