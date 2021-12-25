@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerPawnNetworkComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPlayerPawnNetworkComponent)
 
 
-#define NGD_Coursework_Source_NGD_Coursework_PlayerPawnNetworkComponent_h_33_PRIVATE_PROPERTY_OFFSET
+#define NGD_Coursework_Source_NGD_Coursework_PlayerPawnNetworkComponent_h_33_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_ip() { return STRUCT_OFFSET(UPlayerPawnNetworkComponent, m_ip); } \
+	FORCEINLINE static uint32 __PPO__m_port() { return STRUCT_OFFSET(UPlayerPawnNetworkComponent, m_port); }
+
+
 #define NGD_Coursework_Source_NGD_Coursework_PlayerPawnNetworkComponent_h_30_PROLOG
 #define NGD_Coursework_Source_NGD_Coursework_PlayerPawnNetworkComponent_h_33_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

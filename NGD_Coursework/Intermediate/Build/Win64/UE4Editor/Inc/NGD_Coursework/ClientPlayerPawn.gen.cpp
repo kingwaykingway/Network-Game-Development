@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawn() {}
 	NGD_COURSEWORK_API UClass* Z_Construct_UClass_AClientPlayerPawn();
 	NGD_COURSEWORK_API UClass* Z_Construct_UClass_APlayerPawn();
 	UPackage* Z_Construct_UPackage__Script_NGD_Coursework();
+	NGD_COURSEWORK_API UClass* Z_Construct_UClass_UClientPlayerPawnNetworkComponent_NoRegister();
 // End Cross Module References
 	void AClientPlayerPawn::StaticRegisterNativesAClientPlayerPawn()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NetworkComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NetworkComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +52,18 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawn() {}
 		{ "ModuleRelativePath", "ClientPlayerPawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AClientPlayerPawn_Statics::NewProp_NetworkComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ClientPlayerPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AClientPlayerPawn_Statics::NewProp_NetworkComponent = { "NetworkComponent", nullptr, (EPropertyFlags)0x00400000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AClientPlayerPawn, NetworkComponent), Z_Construct_UClass_UClientPlayerPawnNetworkComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AClientPlayerPawn_Statics::NewProp_NetworkComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AClientPlayerPawn_Statics::NewProp_NetworkComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AClientPlayerPawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AClientPlayerPawn_Statics::NewProp_NetworkComponent,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AClientPlayerPawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AClientPlayerPawn>::IsAbstract,
 	};
@@ -55,11 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawn() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AClientPlayerPawn_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AClientPlayerPawn_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AClientPlayerPawn_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AClientPlayerPawn_Statics::Class_MetaDataParams))
@@ -73,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AClientPlayerPawn, 822911347);
+	IMPLEMENT_CLASS(AClientPlayerPawn, 1653115299);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<AClientPlayerPawn>()
 	{
 		return AClientPlayerPawn::StaticClass();

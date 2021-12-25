@@ -14,16 +14,16 @@
 
 struct UDPMessage
 {
-	int playerID;
+	uint32 playerID;
 	FVector location;
-	FRotator rotation;
+	FQuat rotation;
 };
 
 enum EventType {  Fire, Hit, Death  };
 
 struct TCPMessage
 {
-	int playerID;
+	uint32 playerID;
 	EventType eventType;
 };
 
@@ -31,6 +31,16 @@ UCLASS( Abstract, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class NGD_COURSEWORK_API UPlayerPawnNetworkComponent : public UActorComponent
 {
 	GENERATED_BODY()
+
+	UPROPERTY(Category = Network, EditAnywhere)
+	FString m_ip;
+
+	UPROPERTY(Category = Network, EditAnywhere)
+	int32 m_port;
+
+protected:
+	sockaddr_in m_address;
+	SOCKET m_socket;
 
 public:	
 	// Sets default values for this component's properties
@@ -40,10 +50,10 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-	virtual void UDPUpdate(float DeltaTime);
+	virtual bool UDPUpdate(float DeltaTime);
 
 	//bool Connect(FString ip, int32 port);
-	bool Connect();
+	bool UDPConnect();
 	//bool Send(FString msg);
 	//bool Send();
 	//bool Receive();
@@ -55,12 +65,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-private:
-	FString m_ip;
-	int32 m_port;
-
-	FSocket* m_socket;
-	sockaddr_in m_address;
 
 	//TSharedPtr<FReceiveThread> receiveThread;
 		

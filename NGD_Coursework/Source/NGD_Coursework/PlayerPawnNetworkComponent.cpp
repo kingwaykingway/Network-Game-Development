@@ -22,8 +22,8 @@ void UPlayerPawnNetworkComponent::BeginPlay()
 	// ...
 	m_owner = GetOwner<APawn>();
 
-	// connect
-	Connect();
+	// UDP connect
+	UDPConnect();
 
 }
 
@@ -37,16 +37,23 @@ void UPlayerPawnNetworkComponent::TickComponent(float DeltaTime, ELevelTick Tick
 	UDPUpdate(DeltaTime);
 }
 
-void UPlayerPawnNetworkComponent::UDPUpdate(float DeltaTime)
+bool UPlayerPawnNetworkComponent::UDPUpdate(float DeltaTime)
 {
 	// No definition here as UPlayerPawnNetworkComponent is effectively abstract. 
+	return false;
 }
 
-bool UPlayerPawnNetworkComponent::Connect()
+bool UPlayerPawnNetworkComponent::UDPConnect()
 {
+	m_socket = socket(AF_INET, SOCK_DGRAM, 0);
+	if (m_socket == INVALID_SOCKET)
+	{
+		return false;
+	}
+
 	m_address.sin_family = AF_INET;
 	m_address.sin_port = htons(m_port);
 	m_address.sin_addr.s_addr = inet_addr(TCHAR_TO_ANSI(*m_ip));
 
-	return false;
+	return true;
 }

@@ -1,11 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\Network-Game-Development).
   Building NGD_CourseworkEditor...
   Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-NGD_Coursework-0035.lib
-       Creating library D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.lib and object D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.exp
-    [2/3] UE4Editor-NGD_Coursework-0035.dll
-       Creating library D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.suppressed.lib and object D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-0035.suppressed.exp
-    [3/3] NGD_CourseworkEditor.target
-  Total time in Parallel executor: 1.50 seconds
-  Total execution time: 3.62 seconds
+  Building 5 actions with 8 processes...
+[1/5] cl : Command line warning D9025: overriding '/Zm1000' with '/Zm2000'
+    ClientPlayerPawnNetworkComponent.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
+    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\ClientPlayerPawnNetworkComponent.cpp(26): error C2440: 'initializing': cannot convert from 'AActor *' to 'APawn *'
+    D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\ClientPlayerPawnNetworkComponent.cpp(26): note: Cast from base to derived requires dynamic_cast or static_cast
+[2/5] cl : Command line warning D9025: overriding '/Zm1000' with '/Zm2000'
+    HostPlayerPawnNetworkComponent.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
+    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" NGD_CourseworkEditor Win64 Development -Project="D:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" -WaitMutex -FromMsBuild" exited with code 6.

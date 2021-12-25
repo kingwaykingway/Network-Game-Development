@@ -15,5 +15,5 @@ class NGD_COURSEWORK_API UHostPlayerPawnNetworkComponent : public UPlayerPawnNet
 	GENERATED_BODY()
 	
 private:
-	virtual void UDPUpdate(float DeltaTime) override;
+	virtual bool UDPUpdate(float DeltaTime) override;
 };
