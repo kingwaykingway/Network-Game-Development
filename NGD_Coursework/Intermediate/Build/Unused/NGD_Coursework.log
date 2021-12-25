@@ -1,15 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\Network-Game-Development).
-  Building NGD_CourseworkEditor...
-  Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-[1/5] cl : Command line warning D9025: overriding '/Zm1000' with '/Zm2000'
-    ClientPlayerPawnNetworkComponent.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
-    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
-D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\ClientPlayerPawnNetworkComponent.cpp(26): error C2440: 'initializing': cannot convert from 'AActor *' to 'APawn *'
-    D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Source\NGD_Coursework\ClientPlayerPawnNetworkComponent.cpp(26): note: Cast from base to derived requires dynamic_cast or static_cast
-[2/5] cl : Command line warning D9025: overriding '/Zm1000' with '/Zm2000'
-    HostPlayerPawnNetworkComponent.cpp
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
-    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+  Parsing headers for NGD_CourseworkEditor
+    Running UnrealHeaderTool "D:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "D:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  D:/Unreal Projects/Network-Game-Development/NGD_Coursework/Source/NGD_Coursework/NGD_CourseworkGameMode.h(20) : LogCompile: Error: StartPlay: Override of UFUNCTION in parent class (GameModeBase) cannot have a UFUNCTION() declaration above it; it will use the same parameters as the original declaration.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" NGD_CourseworkEditor Win64 Development -Project="D:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" -WaitMutex -FromMsBuild" exited with code 6.

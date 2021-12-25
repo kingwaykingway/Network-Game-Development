@@ -13,6 +13,13 @@ class ANGD_CourseworkGameMode : public AGameModeBase
 
 public:
 	ANGD_CourseworkGameMode();
+
+protected:
+
+	virtual void StartPlay() override;
+
+	//UFUNCTION(BlueprintNativeEvent, Category = Game)
+	//AActor* FindPlayerStart(AController* Player, const FString& IncomingName = TEXT("")) override;
 };
 
 
