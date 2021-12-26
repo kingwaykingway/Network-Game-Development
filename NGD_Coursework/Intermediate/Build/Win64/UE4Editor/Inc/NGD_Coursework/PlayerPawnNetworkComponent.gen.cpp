@@ -61,14 +61,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawnNetworkComponent() {}
 		{ "ModuleRelativePath", "PlayerPawnNetworkComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip = { "m_ip", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerPawnNetworkComponent, m_ip), METADATA_PARAMS(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip = { "m_ip", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerPawnNetworkComponent, m_ip), METADATA_PARAMS(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port_MetaData[] = {
 		{ "Category", "Network" },
 		{ "ModuleRelativePath", "PlayerPawnNetworkComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port = { "m_port", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerPawnNetworkComponent, m_port), METADATA_PARAMS(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port = { "m_port", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerPawnNetworkComponent, m_port), METADATA_PARAMS(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_ip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerPawnNetworkComponent_Statics::NewProp_m_port,
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawnNetworkComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerPawnNetworkComponent, 1140586306);
+	IMPLEMENT_CLASS(UPlayerPawnNetworkComponent, 1201824237);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<UPlayerPawnNetworkComponent>()
 	{
 		return UPlayerPawnNetworkComponent::StaticClass();

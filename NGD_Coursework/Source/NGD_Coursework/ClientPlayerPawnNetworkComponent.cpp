@@ -3,28 +3,42 @@
 
 #include "ClientPlayerPawnNetworkComponent.h"
 
+// receive transform information (position, rotation), hence update owner's. 
 bool UClientPlayerPawnNetworkComponent::UDPUpdate(float DeltaTime)
 {
-	// receive transform information (position, rotation), hence update owner's. 
+	if (!m_UDP_socket)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT(
+			"missing UDP socket"
+		)), true);
+		return false;
+	}
+
 	UDPMessage msg;
 
 	int addressSize = sizeof(m_address);
-	int count = recvfrom(m_socket, (char*)&msg, sizeof(UDPMessage), 0,
+	int count = recvfrom(m_UDP_socket, (char*)&msg, sizeof(UDPMessage), 0,
 		(sockaddr*)&m_address, &addressSize);
 	if (count < 0)
 	{
-		//die("recvfrom failed");
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT(
+			"recvfrom failed"
+		)), true);
 		return false;
 	}
 	if (count != sizeof(UDPMessage))
 	{
-		//die("received odd-sized message");
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT(
+			"received odd-sized message"
+		)), true);
 		return false;
 	}
 
 	if (msg.playerID != GetOwner()->GetUniqueID())
 	{
-		// display message
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT(
+			"player ID mismatch"
+		)), true);
 		return false;
 	}
 

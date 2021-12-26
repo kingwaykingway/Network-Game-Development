@@ -13,13 +13,13 @@ ANGD_CourseworkGameMode::ANGD_CourseworkGameMode()
 
 void ANGD_CourseworkGameMode::StartPlay()
 {
-	const FVector location = FVector(6046.243164, 3.556587, 1100.000000);
-	const FRotator rotation = FRotator(0.000000, -179.999893, -0.000000);
+	const FVector location = FVector(6046.0, 0.0, 1100.0);
+	const FRotator rotation = FRotator(0.0, -180.0, 0.0);
 	const FActorSpawnParameters param;
 
-	GetWorld()->SpawnActor(AHostPlayerPawn::StaticClass(), &location, &rotation, param
-		//, nullptr, true, false, nullptr, nullptr, true, nullptr, true
-	);
+	//GetWorld()->SpawnActor(AHostPlayerPawn::StaticClass(), &location, &rotation, param
+	//	//, nullptr, true, false, nullptr, nullptr, true, nullptr, true
+	//);
 }
 
 //AActor* ANGD_CourseworkGameMode::FindPlayerStart(AController* Player, const FString& IncomingName)

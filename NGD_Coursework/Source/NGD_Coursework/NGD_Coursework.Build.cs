@@ -10,8 +10,11 @@ public class NGD_Coursework : ModuleRules
 
 		MinFilesUsingPrecompiledHeaderOverride = 1;
 		bFasterWithoutUnity = true;
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", 
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject", 
 			//"Engine", 
-			"InputCore" });
+			"InputCore" 
+		});
 	}
 }

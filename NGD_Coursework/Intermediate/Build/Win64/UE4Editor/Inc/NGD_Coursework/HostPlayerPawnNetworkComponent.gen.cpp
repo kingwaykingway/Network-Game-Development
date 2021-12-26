@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeHostPlayerPawnNetworkComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHostPlayerPawnNetworkComponent, 697565120);
+	IMPLEMENT_CLASS(UHostPlayerPawnNetworkComponent, 1440401149);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<UHostPlayerPawnNetworkComponent>()
 	{
 		return UHostPlayerPawnNetworkComponent::StaticClass();
