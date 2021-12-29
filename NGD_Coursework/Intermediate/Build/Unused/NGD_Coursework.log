@@ -1,6 +1,15 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\Network-Game-Development).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
   Building NGD_CourseworkEditor...
   Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB4181: The "Exec" task returned false but did not log an error.
+[1/4] cl : Command line warning D9025: overriding '/Zm1000' with '/Zm2000'
+    NGD_CourseworkGameMode.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
+    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+    [2/4] UE4Editor-NGD_Coursework.lib
+       Creating library C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework.lib and object C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework.exp
+    [3/4] UE4Editor-NGD_Coursework.dll
+       Creating library C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework.suppressed.lib and object C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework.suppressed.exp
+    [4/4] NGD_CourseworkEditor.target
+  Total time in Parallel executor: 3.75 seconds
+  Total execution time: 5.74 seconds

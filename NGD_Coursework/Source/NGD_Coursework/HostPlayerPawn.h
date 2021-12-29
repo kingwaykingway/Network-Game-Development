@@ -16,11 +16,13 @@ class NGD_COURSEWORK_API AHostPlayerPawn : public APlayerPawn
 {
 	GENERATED_BODY()
 
-	UPROPERTY(Category = Mesh, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class UHostPlayerPawnNetworkComponent* NetworkComponent;
+	//UPROPERTY(Category = Mesh, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	//class UHostPlayerPawnNetworkComponent* NetworkComponent;
 	
 public:
 	AHostPlayerPawn();
+
+	//virtual void Tick(float DeltaSeconds) override;
 
 protected:
 	// Begin APawn overrides

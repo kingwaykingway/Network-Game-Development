@@ -1,0 +1,1703 @@
+﻿Log file open, 12/29/21 00:46:25
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: NGD_Coursework
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.083478
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogXGEController: Cleaning working directory: C:/Users/kingw/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:607][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.29-00.46.28:607][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.12.29-00.46.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:746][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:746][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.29-00.46.28:746][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.29-00.46.28:746][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:746][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.29-00.46.28:746][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:746][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.29-00.46.28:746][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.29-00.46.28:747][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.29-00.46.28:748][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.12.29-00.46.28:749][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.12.29-00.46.28:750][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.29-00.46.28:750][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.29-00.46.28:750][  0]LogHAL: Display: Platform has ~ 16 GB [17077575680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.29-00.46.28:750][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.29-00.46.28:751][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.29-00.46.28:751][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.29-00.46.28:752][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.29-00.46.28:753][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:753][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.29-00.46.28:754][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.29-00.46.28:754][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Scalability.ini]
+[2021.12.29-00.46.28:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.12.29-00.46.28:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.12.29-00.46.28:754][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.12.29-00.46.28:754][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.29-00.46.28:755][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.29-00.46.28:755][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.29-00.46.28:755][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.29-00.46.28:755][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Engine.ini]
+[2021.12.29-00.46.28:755][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Config/Windows/Editor.ini]
+[2021.12.29-00.46.28:756][  0]LogInit: Computer: DESKTOP-JG627LP
+[2021.12.29-00.46.28:756][  0]LogInit: User: Kingway
+[2021.12.29-00.46.28:756][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.12.29-00.46.28:756][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.29-00.46.28:756][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.12.29-00.46.28:756][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.29-00.46.28:756][  0]LogMemory: Process Physical Memory: 128.21 MB used, 128.21 MB peak
+[2021.12.29-00.46.28:756][  0]LogMemory: Process Virtual Memory: 108.76 MB used, 108.76 MB peak
+[2021.12.29-00.46.28:756][  0]LogMemory: Physical Memory: 8679.32 MB used,  7607.13 MB free, 16286.45 MB total
+[2021.12.29-00.46.28:756][  0]LogMemory: Virtual Memory: 134196024.00 MB used,  21702.88 MB free, 134217728.00 MB total
+[2021.12.29-00.46.28:786][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.29-00.46.29:344][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.29-00.46.29:349][  0]LogInit: Using OS detected language (zh-CN).
+[2021.12.29-00.46.29:349][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.12.29-00.46.29:386][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2021.12.29-00.46.29:805][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.12.29-00.46.29:805][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.12.29-00.46.29:806][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.12.29-00.46.29:807][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.12.29-00.46.29:807][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.12.29-00.46.29:808][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2021.12.29-00.46.29:809][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.12.29-00.46.29:809][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.12.29-00.46.29:810][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.12.29-00.46.29:810][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.12.29-00.46.29:811][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.12.29-00.46.29:903][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.29-00.46.29:946][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.29-00.46.30:054][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.29-00.46.30:054][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.29-00.46.34:556][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.29-00.46.34:556][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.29-00.46.34:556][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.29-00.46.34:804][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.12.29-00.46.34:805][  0]LogD3D11RHI:       8079/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.12.29-00.46.34:937][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2021.12.29-00.46.34:937][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.12.29-00.46.34:942][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.29-00.46.34:942][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.29-00.46.34:942][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.29-00.46.34:953][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.29-00.46.34:953][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.12.29-00.46.34:953][  0]LogWindows: EnumDisplayDevices:
+[2021.12.29-00.46.34:954][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.12.29-00.46.34:956][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2021.12.29-00.46.34:958][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.29-00.46.34:960][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.29-00.46.34:962][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.12.29-00.46.34:965][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.12.29-00.46.34:966][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2021.12.29-00.46.34:968][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.12.29-00.46.34:968][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.12.29-00.46.34:968][  0]LogD3D11RHI:   Driver Version: 472.12 (internal:30.0.14.7212, unified:472.12)
+[2021.12.29-00.46.34:968][  0]LogD3D11RHI:      Driver Date: 9-13-2021
+[2021.12.29-00.46.34:968][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.12.29-00.46.35:142][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.29-00.46.35:142][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.29-00.46.35:142][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.29-00.46.35:212][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.29-00.46.35:218][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.12.29-00.46.37:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.29-00.46.37:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.29-00.46.37:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.29-00.46.37:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.29-00.46.37:607][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.29-00.46.37:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.29-00.46.37:663][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.29-00.46.37:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.29-00.46.37:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.29-00.46.37:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.29-00.46.37:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.29-00.46.37:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.29-00.46.37:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.29-00.46.37:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.12.29-00.46.37:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.12.29-00.46.37:941][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.12.29-00.46.37:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.12.29-00.46.38:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.29-00.46.38:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.29-00.46.38:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.29-00.46.38:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.29-00.46.38:109][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.29-00.46.38:138][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.29-00.46.38:138][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.29-00.46.38:223][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.29-00.46.38:808][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.12.29-00.46.38:809][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Unreal Projects/Network-Game-Development/NGD_Coursework/Intermediate/Shaders/WorkingDirectory/15836/).
+[2021.12.29-00.46.38:810][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kingw/AppData/Local/Temp/UnrealShaderWorkingDir/87F713734024913CABE167A5C12A71AA/'.
+[2021.12.29-00.46.38:811][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.29-00.46.38:811][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.29-00.46.44:556][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.29-00.46.44:658][  0]LogDerivedDataCache: Loaded boot cache 0.10s 77MB C:/Users/kingw/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.12.29-00.46.44:658][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kingw/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.12.29-00.46.44:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/Network-Game-Development/NGD_Coursework/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.29-00.46.44:659][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.29-00.46.44:659][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/Network-Game-Development/NGD_Coursework/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.29-00.46.44:659][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.29-00.46.44:686][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.29-00.46.44:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.29-00.46.44:686][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.29-00.46.44:713][  0]LogDerivedDataCache: Speed tests for C:/Users/kingw/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2021.12.29-00.46.44:713][  0]LogDerivedDataCache: Display: Performance to C:/Users/kingw/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.60ms. RandomReadSpeed=93.52MBs, RandomWriteSpeed=92.98MBs. Assigned SpeedClass 'Local'
+[2021.12.29-00.46.44:725][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kingw/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.29-00.46.44:725][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.29-00.46.44:725][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.29-00.46.44:811][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.29-00.46.44:830][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.29-00.46.44:975][  0]LogAssetRegistry: FAssetRegistry took 0.0564 seconds to start up
+[2021.12.29-00.46.45:502][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.29-00.46.45:502][  0]LogInit: Active device profile: [000001078068FC00][00000107F49B6F80 49] Windows
+[2021.12.29-00.46.45:502][  0]LogInit: Profiles: [000001078068FC00][00000107F49B6F80 49] Windows, [0000010780694500][00000107F8CED100 49] WindowsNoEditor, [000001078068C500][00000107F8CF1280 49] WindowsServer, [0000010780697600][00000107F8CF5400 49] WindowsClient, [000001078068F500][00000107F8CF9580 49] IOS, [0000010780694D00][00000107F4CA56C0 49] iPadAir, [000001078068CC00][00000107F8CFD800 49] iPadAir2, [000001078065D000][00000107DEAEDA80 49] IPadPro, [000001078065D100][00000107DEAE5AC0 49] iPadAir3, [000001078068F000][00000107DEAF1C40 49] iPadAir4, [000001078065CA00][00000107DEAF4100 49] iPadMini2, [000001078068D100][00000107DEAF8280 49] iPadMini3, [000001078065E000][00000107DEAFC400 49] iPadMini4, [000001078068E800][00000107F731E580 49] iPadMini5, [0000010780694C00][00000107F7326840 49] iPhone6, [0000010780697900][00000107F7322880 49] iPodTouch6, [000001078065F300][00000107F732EB40 49] iPhone7, [000001078065C900][00000107F732AB80 49] iPodTouch7, [0000010780696F00][00000107F7332D00 49] iPhone5S, [000001078065CD00][00000107F7336E80 49] iPhone6Plus, [0000010780696C00][00000107F733B000 49] iPhone6S, [000001078065FD00][00000107F733F180 49] iPhone6SPlus, [0000010780694100][00000107F4B39300 49] iPhone7Plus, [000001078065D600][00000107F4B3D480 49] iPhoneSE, [0000010780694700][00000107F4B41600 49] iPhone8, [000001078065D300][00000107DEAE9740 49] iPhone8Plus, [0000010780695200][00000107F4B45880 49] iPhoneX, [000001078065E100][00000107F4B499C0 49] iPhoneXS, [0000010780696300][00000107F4B51B40 49] iPhoneXSMax, [000001078065CC00][00000107F4B55CC0 49] iPhoneXR, [0000010780696000][00000107F4B58180 49] iPhone11, [000001078065F700][00000107F4B5C300 49] iPhone11Pro, [0000010780696E00][00000107F4B60480 49] iPhone11ProMax, [000001078065C300][00000107F4B64600 49] iPhoneSE2, [0000010780694600][00000107F4B68780 49] iPhone12Mini, [000001078065EC00][00000107F4B6C900 49] iPhone12, [0000010780695F00][00000107F4B70A80 49] iPhone12Pro, [000001078065CF00][00000107F4B74C00 49] iPhone12ProMax, [0000010780697F00][00000107F4B78D80 49] iPadPro105, [000001078065FA00][00000107F4B7CF00 49] iPadPro129, [0000010780695300][00000107F4B81080 49] iPadPro97, [000001078065C800][00000107F4B85200 49] iPadPro2_129, [0000010780697A00][00000107F4B89380 49] iPad5, [000001078065EA00][00000107F4B8D500 49] iPad6, [0000010780697C00][00000107F4B91680 49] iPad7, [000001078065C600][00000107F4B4D7C0 49] iPad8, [0000010780696800][00000107F4B95900 49] iPadPro11, [000001078065EE00][00000107F4B99A40 49] iPadPro2_11, [0000010780694400][00000107F4B9DB80 49] iPadPro3_129, [000001078065E200][00000107F4BA5D00 49] iPadPro4_129, [0000010780695100][00000107F4BA81C0 49] AppleTV, [000001078065F500][00000107F4BAC340 49] AppleTV4K, [0000010780696100][00000107F4BB04C0 49] TVOS, [000001078065C400][00000107F4BB4640 49] Mac, [0000010780696200][00000107F4BB87C0 49] MacClient, [000001078065ED00][00000107F4BBC940 49] MacNoEditor, [0000010780694800][00000107F4BC0AC0 49] MacServer, [000001078065D500][00000107F4BC4C40 49] Linux, [0000010780697100][00000107F4BC8DC0 49] LinuxAArch64, [000001078065C100][00000107F4BCCF40 49] LinuxNoEditor, [0000010780696B00][00000107F4BD10C0 49] LinuxAArch64NoEditor, [000001078065DC00][00000107F4BD5240 49] LinuxClient, [0000010780696900][00000107F4BD93C0 49] LinuxAArch64Client, [0000010780758100][00000107F4BDD540 49] LinuxServer, [000001078068CD00][00000107F4BE16C0 49] LinuxAArch64Server, [0000010780759A00][00000107F4BA1800 49] Android, [000001078068DF00][00000107F4BE5940 49] Android_Low, [0000010780758500][00000107F4BE9A80 49] Android_Mid, [000001078068F900][00000107F4BEDBC0 49] Android_High, [0000010780759B00][00000107F4BF5D40 49] Android_Default, [000001078068C400][00000107F4BF8200 49] Android_Adreno4xx, [0000010780758600][00000107F4BFC380 49] Android_Adreno5xx_Low, [000001078068DA00][00000107F4C00500 49] Android_Adreno5xx, [0000010780759F00][00000107F4C04680 49] Android_Adreno6xx, [000001078068EB00][00000107F18B0800 49] Android_Adreno6xx_Vulkan, [0000010780759300][00000107F18B4980 49] Android_Mali_T6xx, [000001078068EF00][00000107F18B8B00 49] Android_Mali_T7xx, [0000010780759900][00000107F18BCC80 49] Android_Mali_T8xx, [000001078068C200][00000107F18C0E00 49] Android_Mali_G71, [0000010780758300][00000107F18C4F80 49] Android_Mali_G72, [000001078068F800][00000107F18C9100 49] Android_Mali_G72_Vulkan, [0000010780694A00][00000107F18CD280 49] Android_Mali_G76, [000001078065C700][00000107F18D1400 49] Android_Mali_G76_Vulkan, [0000010780695D00][00000107F18D5580 49] Android_Mali_G77, [000001078065DD00][00000107F18D9700 49] Android_Mali_G77_Vulkan, [0000010780694900][0000010780801880 49] Android_Vulkan_SM5, [000001078065FF00][00000107F4BF19C0 49] Android_PowerVR_G6xxx, [0000010780696600][0000010780805B00 49] Android_PowerVR_GT7xxx, [000001078065DF00][0000010780809C40 49] Android_PowerVR_GE8xxx, [0000010780697B00][0000010780810100 49] Android_PowerVR_GM9xxx, [000001078065D900][0000010780814280 49] Android_PowerVR_GM9xxx_Vulkan, [0000010780696A00][0000010780818400 49] Android_TegraK1, [0000010780758900][000001078081C580 49] Android_Unknown_Vulkan, [0000010780695400][0000010780820700 49] Lumin, [0000010780759500][0000010780824880 49] Lumin_Desktop, [0000010780695900][0000010780828A00 49] HoloLens, 
+[2021.12.29-00.46.45:947][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.29-00.46.45:947][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.29-00.46.45:947][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.29-00.46.45:947][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.29-00.46.45:948][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.29-00.46.46:045][  0]LogNetVersion: NGD_Coursework 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 2842069960)
+[2021.12.29-00.46.48:549][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 2 prioritized culture(s) in 0.205616 seconds
+[2021.12.29-00.46.48:559][  0]LogUObjectArray: 16664 objects as part of root set at end of initial load.
+[2021.12.29-00.46.48:559][  0]LogUObjectAllocator: 4164736 out of 0 bytes used by permanent object pool.
+[2021.12.29-00.46.48:559][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.29-00.46.49:565][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.29-00.46.49:596][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.29-00.46.51:073][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.29-00.46.51:158][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.29-00.46.51:158][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.29-00.46.52:520][  0]SourceControl: 源码管理已禁用
+[2021.12.29-00.46.52:520][  0]SourceControl: 源码管理已禁用
+[2021.12.29-00.46.52:568][  0]SourceControl: 源码管理已禁用
+[2021.12.29-00.46.52:591][  0]LogUProjectInfo: Found projects:
+[2021.12.29-00.46.52:760][  0]SourceControl: 源码管理已禁用
+[2021.12.29-00.46.52:774][  0]SourceControl: 源码管理已禁用
+[2021.12.29-00.46.52:807][  0]LogCollectionManager: Loaded 0 collections in 0.002810 seconds
+[2021.12.29-00.46.52:996][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Saved/Collections/' took 0.00s
+[2021.12.29-00.46.52:996][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Content/Developers/Kingway/Collections/' took 0.00s
+[2021.12.29-00.46.52:997][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Content/Collections/' took 0.00s
+[2021.12.29-00.46.52:997][  0]LogEngine: Initializing Engine...
+[2021.12.29-00.46.52:998][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.29-00.46.53:002][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.12.29-00.46.53:422][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.29-00.46.53:465][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.29-00.46.53:468][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.12.29-00.46.53:484][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.12.29-00.46.53:484][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.46.53:485][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.46.53:485][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.46.53:486][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.46.53:486][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.46.53:597][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.46.53:597][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.46.53:887][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.46.53:887][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.46.53:923][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.46.53:923][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.46.53:925][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.46.53:926][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.46.53:926][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.46.53:928][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.46.53:928][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.46.53:928][  0]LogInit: FAudioDevice initialized.
+[2021.12.29-00.46.53:928][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.12.29-00.46.53:929][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.29-00.46.53:996][  0]LogDerivedDataCache: Saved boot cache 0.07s 77MB C:/Users/kingw/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.12.29-00.46.53:997][  0]LogInit: Texture streaming: Enabled
+[2021.12.29-00.46.54:047][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.12.29-00.46.54:070][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.29-00.46.54:070][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.29-00.46.54:097][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.29-00.46.54:161][  0]LogInit: Transaction tracking system initialized
+[2021.12.29-00.46.54:266][  0]BlueprintLog: New page: 编辑器加载
+[2021.12.29-00.46.54:646][  0]LocalizationService: 本地化服务已禁用
+[2021.12.29-00.46.54:759][  0]TimingProfiler: Initialize
+[2021.12.29-00.46.54:761][  0]TimingProfiler: OnSessionChanged
+[2021.12.29-00.46.54:761][  0]LoadingProfiler: Initialize
+[2021.12.29-00.46.54:762][  0]LoadingProfiler: OnSessionChanged
+[2021.12.29-00.46.54:762][  0]NetworkingProfiler: Initialize
+[2021.12.29-00.46.54:762][  0]NetworkingProfiler: OnSessionChanged
+[2021.12.29-00.46.54:762][  0]MemoryProfiler: Initialize
+[2021.12.29-00.46.54:762][  0]MemoryProfiler: OnSessionChanged
+[2021.12.29-00.46.55:597][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.12.29-00.46.55:597][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.29-00.46.56:294][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Network-Game-Development/NGD_Coursework/Content/' took 0.03s
+[2021.12.29-00.46.56:294][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.12.29-00.46.56:314][  0]SourceControl: 源码管理已禁用
+[2021.12.29-00.46.56:315][  0]LogUnrealEdMisc: Loading editor; pre map load, took 36.348
+[2021.12.29-00.46.56:316][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/Network-Game-Development/NGD_Coursework/Content/FlyingCPP/Maps/FlyingExampleMap_Network.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.29-00.46.56:325][  0]LightingResults: New page: 光照构建
+[2021.12.29-00.46.56:329][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.46.56:329][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.46.56:330][  0]MapCheck: New page: 地图检测
+[2021.12.29-00.46.56:330][  0]LightingResults: New page: 光照构建
+[2021.12.29-00.46.56:413][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.12.29-00.46.56:793][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.46.56:794][  0]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.46.56:826][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.29-00.46.56:846][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.12.29-00.46.56:847][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.29-00.46.56:848][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.549毫秒。
+[2021.12.29-00.46.56:848][  0]LogFileHelpers: Loading map 'FlyingExampleMap_Network' took 0.532
+[2021.12.29-00.46.56:873][  0]LogUnrealEdMisc: Total Editor Startup Time, took 36.907
+[2021.12.29-00.46.57:089][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.46.57:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.46.57:113][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.46.57:122][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.46.57:240][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0167 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.46.57:250][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.12.29-00.46.57:267][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.12.29-00.46.57:267][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:267][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.29-00.46.57:267][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2021.12.29-00.46.57:279][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.12.29-00.46.57:279][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:279][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.12.29-00.46.57:279][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.12.29-00.46.57:289][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.12.29-00.46.57:289][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:289][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.12.29-00.46.57:289][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.12.29-00.46.57:298][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.29-00.46.57:298][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:298][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.29-00.46.57:298][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.12.29-00.46.57:308][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.12.29-00.46.57:308][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:308][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.12.29-00.46.57:308][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.12.29-00.46.57:317][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.12.29-00.46.57:317][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:317][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.12.29-00.46.57:317][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.12.29-00.46.57:326][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.12.29-00.46.57:326][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:327][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.12.29-00.46.57:327][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.12.29-00.46.57:336][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.12.29-00.46.57:336][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:336][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.12.29-00.46.57:336][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.12.29-00.46.57:349][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.12.29-00.46.57:349][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:349][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.12.29-00.46.57:349][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2021.12.29-00.46.57:358][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.12.29-00.46.57:358][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:358][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.12.29-00.46.57:358][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.12.29-00.46.57:367][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.12.29-00.46.57:367][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:367][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.12.29-00.46.57:367][  0]LogPakFile: OnPakFileMounted2Time == 0.000056
+[2021.12.29-00.46.57:376][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.12.29-00.46.57:376][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:376][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.12.29-00.46.57:377][  0]LogPakFile: OnPakFileMounted2Time == 0.000060
+[2021.12.29-00.46.57:386][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.29-00.46.57:386][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:386][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.29-00.46.57:386][  0]LogPakFile: OnPakFileMounted2Time == 0.000065
+[2021.12.29-00.46.57:394][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.12.29-00.46.57:395][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:395][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.12.29-00.46.57:395][  0]LogPakFile: OnPakFileMounted2Time == 0.000070
+[2021.12.29-00.46.57:403][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.12.29-00.46.57:403][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:403][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.12.29-00.46.57:403][  0]LogPakFile: OnPakFileMounted2Time == 0.000074
+[2021.12.29-00.46.57:412][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.12.29-00.46.57:412][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:412][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.29-00.46.57:412][  0]LogPakFile: OnPakFileMounted2Time == 0.000078
+[2021.12.29-00.46.57:421][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.12.29-00.46.57:421][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:421][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.12.29-00.46.57:421][  0]LogPakFile: OnPakFileMounted2Time == 0.000082
+[2021.12.29-00.46.57:430][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.12.29-00.46.57:430][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:430][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.12.29-00.46.57:430][  0]LogPakFile: OnPakFileMounted2Time == 0.000086
+[2021.12.29-00.46.57:439][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.29-00.46.57:439][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:439][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.29-00.46.57:439][  0]LogPakFile: OnPakFileMounted2Time == 0.000090
+[2021.12.29-00.46.57:452][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.29-00.46.57:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.29-00.46.57:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000095
+[2021.12.29-00.46.57:461][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.12.29-00.46.57:462][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:462][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.29-00.46.57:462][  0]LogPakFile: OnPakFileMounted2Time == 0.000099
+[2021.12.29-00.46.57:471][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.12.29-00.46.57:471][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:471][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.12.29-00.46.57:471][  0]LogPakFile: OnPakFileMounted2Time == 0.000103
+[2021.12.29-00.46.57:481][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.12.29-00.46.57:481][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:481][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.12.29-00.46.57:481][  0]LogPakFile: OnPakFileMounted2Time == 0.000107
+[2021.12.29-00.46.57:490][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.12.29-00.46.57:490][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:490][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.12.29-00.46.57:491][  0]LogPakFile: OnPakFileMounted2Time == 0.000112
+[2021.12.29-00.46.57:500][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.29-00.46.57:500][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:500][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.29-00.46.57:500][  0]LogPakFile: OnPakFileMounted2Time == 0.000116
+[2021.12.29-00.46.57:510][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.12.29-00.46.57:510][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.29-00.46.57:510][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.12.29-00.46.57:510][  0]LogPakFile: OnPakFileMounted2Time == 0.000120
+[2021.12.29-00.46.57:907][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.29-00.46.57:983][  0]LogSlate: Took 0.005948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.29-00.46.57:995][  0]LogSlate: Took 0.010035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.12.29-00.46.58:005][  0]LogSlate: Took 0.006803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.29-00.46.58:015][  0]LogSlate: Took 0.007389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.29-00.46.58:178][  0]LogRenderer: Reallocating scene render targets to support 1200x656 Format 10 NumSamples 1 (Frame:1).
+[2021.12.29-00.46.58:301][  0]LogSlate: Took 0.007445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.29-00.46.58:399][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.29-00.46.58:399][  0]LogLoad: (Engine Initialization) Total time: 38.43 seconds
+[2021.12.29-00.46.58:399][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.29-00.46.58:399][  0]LogInit: First time updating LLM stats...
+[2021.12.29-00.46.58:470][  0]LogAssetRegistry: Asset discovery search completed in 13.5448 seconds
+[2021.12.29-00.46.58:472][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2021.12.29-00.46.58:549][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.29-00.49.59:936][541]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.29-00.49.59:936][541]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.29-00.50.00:983][642]Candidate modules for hot reload:
+[2021.12.29-00.50.00:983][642]  NGD_Coursework
+[2021.12.29-00.50.00:984][642]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,2220 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.50.00:990][642]Warning: Starting HotReload took  0.2s.
+[2021.12.29-00.50.42:167][502]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:50:42
+[2021.12.29-00.50.42:168][502]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.50.42:168][502]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.12.29-00.50.42:168][502]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 22.6616801 seconds
+[2021.12.29-00.50.42:168][502]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.50.42:168][502]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.50.42:168][502]CompilerResultsLog: Building 10 actions with 8 processes...
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [1/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   PlayerPawn.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [2/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   PlayerPawn.gen.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [3/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   ClientPlayerPawn.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [4/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   HostPlayerPawn.gen.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [5/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [6/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   HostPlayerPawn.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   [7/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   ClientPlayerPawn.gen.cpp
+[2021.12.29-00.50.42:168][502]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.50.42:169][502]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.50.42:169][502]CompilerResultsLog:   [8/10] UE4Editor-NGD_Coursework-2220.lib
+[2021.12.29-00.50.42:169][502]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2220.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2220.exp
+[2021.12.29-00.50.42:169][502]CompilerResultsLog:   [9/10] UE4Editor-NGD_Coursework-2220.dll
+[2021.12.29-00.50.42:169][502]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2220.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2220.suppressed.exp
+[2021.12.29-00.50.42:169][502]CompilerResultsLog:   [10/10] NGD_CourseworkEditor.target
+[2021.12.29-00.50.42:169][502]CompilerResultsLog: Total time in Parallel executor: 15.76 seconds
+[2021.12.29-00.50.42:169][502]CompilerResultsLog: Total execution time: 40.98 seconds
+[2021.12.29-00.50.42:169][502]LogMainFrame: MainFrame: Module compiling took 41.213 seconds
+[2021.12.29-00.50.42:228][502]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.50.42:229][502]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.50.42:295][502]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0177 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.50.42:296][502]Display: HotReload took 41.5s.
+[2021.12.29-00.50.45:878][880]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.50.45:895][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.50.45:895][880]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:50:45）
+[2021.12.29-00.50.45:900][880]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.29-00.50.45:902][880]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.29-00.50.45:903][880]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.50.45:939][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034855s)
+[2021.12.29-00.50.45:941][880]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.50.45:941][880]LogPlayLevel: PIE: World Init took: (0.002517s)
+[2021.12.29-00.50.45:942][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.038267s)
+[2021.12.29-00.50.45:962][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.12.29-00.50.45:964][880]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.50.45:964][880]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.50.45:964][880]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.50.45:965][880]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.50.45:965][880]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.50.45:992][880]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.50.45:993][880]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.50.46:029][880]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.50.46:029][880]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.50.46:029][880]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.50.46:029][880]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.50.46:030][880]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.50.46:030][880]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.50.46:030][880]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.50.46:042][880]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.50.46:042][880]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.50.46:042][880]LogInit: FAudioDevice initialized.
+[2021.12.29-00.50.46:043][880]LogAudio: Display: Audio Device (ID: 2) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.50.46:054][880]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.50.46:066][880]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.50.46
+[2021.12.29-00.50.46:067][880]LogWorld: Bringing up level for play took: 0.005501
+[2021.12.29-00.50.46:069][880]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.12.29-00.50.46:167][880]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.12.29-00.50.46:168][880]PIE: 登陆的服务器
+[2021.12.29-00.50.46:171][880]PIE: PIE总开始时间：0.288秒。
+[2021.12.29-00.50.47:974][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.50.47:974][ 83]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.50.47:975][ 83]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.50.47:977][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.50.47:984][ 83]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-00.50.47:985][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.50.47:992][ 83]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-00.50.47:995][ 83]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.50.47:996][ 83]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.50.48:013][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.50.48:019][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.12.29-00.50.48:033][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.12.29-00.51.01:157][277]Candidate modules for hot reload:
+[2021.12.29-00.51.01:157][277]  NGD_Coursework
+[2021.12.29-00.51.01:157][277]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,5387 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.51.01:163][277]Warning: Starting HotReload took  0.1s.
+[2021.12.29-00.51.32:618][981]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:51:32
+[2021.12.29-00.51.32:619][981]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.51.32:619][981]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.12.29-00.51.32:619][981]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 20.4565265 seconds
+[2021.12.29-00.51.32:619][981]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.51.32:619][981]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.51.32:619][981]CompilerResultsLog: Building 10 actions with 8 processes...
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   [1/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   PlayerPawn.cpp
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   [2/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   PlayerPawn.gen.cpp
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   [3/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   ClientPlayerPawn.cpp
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   [4/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   ClientPlayerPawn.gen.cpp
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   [5/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   HostPlayerPawn.gen.cpp
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   [6/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.51.32:619][981]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   [7/10] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   HostPlayerPawn.cpp
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   [8/10] UE4Editor-NGD_Coursework-5387.lib
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-5387.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-5387.exp
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   [9/10] UE4Editor-NGD_Coursework-5387.dll
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-5387.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-5387.suppressed.exp
+[2021.12.29-00.51.32:620][981]CompilerResultsLog:   [10/10] NGD_CourseworkEditor.target
+[2021.12.29-00.51.32:620][981]CompilerResultsLog: Total time in Parallel executor: 8.52 seconds
+[2021.12.29-00.51.32:620][981]CompilerResultsLog: Total execution time: 31.27 seconds
+[2021.12.29-00.51.32:620][981]LogMainFrame: MainFrame: Module compiling took 31.468 seconds
+[2021.12.29-00.51.32:660][981]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.51.32:662][981]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.51.32:699][981]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0081 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.51.32:699][981]Display: HotReload took 31.6s.
+[2021.12.29-00.51.37:377][541]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.51.37:389][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.51.37:389][541]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:51:37）
+[2021.12.29-00.51.37:390][541]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.51.37:418][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028417s)
+[2021.12.29-00.51.37:419][541]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.51.37:421][541]LogPlayLevel: PIE: World Init took: (0.002527s)
+[2021.12.29-00.51.37:421][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.031188s)
+[2021.12.29-00.51.37:438][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.12.29-00.51.37:438][541]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.51.37:438][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.51.37:438][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.51.37:439][541]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.51.37:439][541]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.51.37:466][541]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.51.37:466][541]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.51.37:500][541]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.51.37:501][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.51.37:501][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.51.37:501][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.51.37:502][541]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.51.37:502][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.51.37:502][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.51.37:513][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.51.37:513][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.51.37:513][541]LogInit: FAudioDevice initialized.
+[2021.12.29-00.51.37:513][541]LogAudio: Display: Audio Device (ID: 3) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.51.37:525][541]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.51.37:532][541]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.51.37
+[2021.12.29-00.51.37:532][541]LogWorld: Bringing up level for play took: 0.006428
+[2021.12.29-00.51.37:532][541]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.12.29-00.51.37:554][541]PIE: 登陆的服务器
+[2021.12.29-00.51.37:555][541]PIE: PIE总开始时间：0.175秒。
+[2021.12.29-00.51.40:581][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.51.40:581][893]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.51.40:581][893]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.51.40:581][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.51.40:586][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-00.51.40:587][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.51.40:591][893]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-00.51.40:591][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.51.40:593][893]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.51.40:606][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.51.40:608][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.12.29-00.51.40:652][895]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: 0000010793573200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: 0000010793573200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: 0000010793573200: libcurl info message cache 0 (Connection 0 seems to be dead!)
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: 0000010793573200: libcurl info message cache 1 (Closing connection 0)
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: 0000010793573200: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: 0000010793573200: libcurl info message cache 3 (Closing connection 1)
+[2021.12.29-00.51.54:460][648]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.52.54:570][827]LogHttp: Warning: 0000010793573200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.52.54:570][827]LogHttp: Warning: 0000010793573200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.52.54:570][827]LogHttp: Warning: 0000010793573200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.52.54:571][827]LogHttp: Warning: 0000010793573200: libcurl info message cache 1 (Closing connection 2)
+[2021.12.29-00.52.54:903][828]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.53.06:646][862]Candidate modules for hot reload:
+[2021.12.29-00.53.06:646][862]  NGD_Coursework
+[2021.12.29-00.53.06:647][862]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,1214 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.53.06:654][862]Warning: Starting HotReload took  0.0s.
+[2021.12.29-00.53.30:272][788]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:53:30
+[2021.12.29-00.53.30:272][788]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.53.30:272][788]CompilerResultsLog: Invalidating makefile for NGD_CourseworkEditor (UHT files changed)
+[2021.12.29-00.53.30:272][788]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.12.29-00.53.30:272][788]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.12.29-00.53.30:272][788]CompilerResultsLog: Error: Couldn't find parent type for 'ClientPlayerPawn' named 'APlayerPawn' in current module (Package: /Script/NGD_Coursework) or any other module parsed so far.
+[2021.12.29-00.53.30:272][788]LogMainFrame: MainFrame: Module compiling took 23.631 seconds
+[2021.12.29-00.53.30:291][788]Warning: HotReload failed, recompile failed
+[2021.12.29-00.53.33:362][796]LogSlate: Took 0.009477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.29-00.53.46:692][393]LogSlate: Window '消息日志' being destroyed
+[2021.12.29-00.53.46:697][393]LogSlate: Window '消息日志' being destroyed
+[2021.12.29-00.53.54:409][534]LogHttp: Warning: 0000010793402B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.53.54:409][534]LogHttp: Warning: 0000010793402B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.53.54:409][534]LogHttp: Warning: 0000010793402B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.53.54:409][534]LogHttp: Warning: 0000010793402B00: libcurl info message cache 1 (Closing connection 3)
+[2021.12.29-00.53.54:409][534]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.53.58:831][546]Candidate modules for hot reload:
+[2021.12.29-00.53.58:831][546]  NGD_Coursework
+[2021.12.29-00.53.58:831][546]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,7211 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.53.58:836][546]Warning: Starting HotReload took  0.0s.
+[2021.12.29-00.54.35:541][785]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:54:35
+[2021.12.29-00.54.35:541][785]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.54.35:541][785]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.12.29-00.54.35:541][785]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.12.29-00.54.35:541][785]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 11.2486088 seconds
+[2021.12.29-00.54.35:542][785]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.54.35:542][785]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.54.35:542][785]CompilerResultsLog: Building 12 actions with 8 processes...
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [1/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   NGD_Coursework.init.gen.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [2/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   NGD_CourseworkGameMode.gen.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [3/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   PlayerPawn.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [4/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   PlayerPawn.gen.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [5/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   ClientPlayerPawn.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [6/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   ClientPlayerPawn.gen.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [7/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [8/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   HostPlayerPawn.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [9/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   HostPlayerPawn.gen.cpp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [10/12] UE4Editor-NGD_Coursework-7211.lib
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-7211.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-7211.exp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [11/12] UE4Editor-NGD_Coursework-7211.dll
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-7211.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-7211.suppressed.exp
+[2021.12.29-00.54.35:542][785]CompilerResultsLog:   [12/12] NGD_CourseworkEditor.target
+[2021.12.29-00.54.35:542][785]CompilerResultsLog: Total time in Parallel executor: 21.46 seconds
+[2021.12.29-00.54.35:543][785]CompilerResultsLog: Total execution time: 36.37 seconds
+[2021.12.29-00.54.35:543][785]LogMainFrame: MainFrame: Module compiling took 36.716 seconds
+[2021.12.29-00.54.35:580][785]LogClass: Could not find existing class ClientPlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.54.35:580][785]LogClass: Could not find existing class PlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.54.35:582][785]LogClass: Could not find existing class HostPlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.54.35:583][785]LogClass: Could not find existing class NGD_CourseworkGameMode in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.54.35:590][785]LogHotReload: Re-instancing ClientPlayerPawn after hot-reload.
+[2021.12.29-00.54.35:600][785]LogHotReload: Re-instancing HostPlayerPawn after hot-reload.
+[2021.12.29-00.54.35:608][785]LogHotReload: Re-instancing NGD_CourseworkGameMode after hot-reload.
+[2021.12.29-00.54.35:614][785]LogHotReload: Re-instancing PlayerPawn after hot-reload.
+[2021.12.29-00.54.35:618][785]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.54.35:619][785]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.54.35:674][785]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.54.35:674][785]Display: HotReload took 36.9s.
+[2021.12.29-00.54.38:252][ 90]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.54.38:264][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.54.38:264][ 90]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:54:38）
+[2021.12.29-00.54.38:302][ 90]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.54.38:319][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017569s)
+[2021.12.29-00.54.38:320][ 90]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.54.38:321][ 90]LogPlayLevel: PIE: World Init took: (0.001402s)
+[2021.12.29-00.54.38:321][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.019189s)
+[2021.12.29-00.54.38:340][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.12.29-00.54.38:341][ 90]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.54.38:341][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.54.38:341][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.54.38:342][ 90]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.54.38:342][ 90]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.54.38:372][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.54.38:372][ 90]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.54.38:418][ 90]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.54.38:418][ 90]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.54.38:418][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.54.38:418][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.54.38:418][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.54.38:418][ 90]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.54.38:419][ 90]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.54.38:432][ 90]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.54.38:432][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.54.38:432][ 90]LogInit: FAudioDevice initialized.
+[2021.12.29-00.54.38:432][ 90]LogAudio: Display: Audio Device (ID: 4) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.54.38:440][ 90]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.54.38:445][ 90]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.54.38
+[2021.12.29-00.54.38:445][ 90]LogWorld: Bringing up level for play took: 0.005000
+[2021.12.29-00.54.38:446][ 90]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.12.29-00.54.38:469][ 90]PIE: 登陆的服务器
+[2021.12.29-00.54.38:470][ 90]PIE: PIE总开始时间：0.216秒。
+[2021.12.29-00.54.44:760][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.54.44:760][834]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.54.44:760][834]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.54.44:762][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.54.44:770][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-00.54.44:772][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.54.44:777][834]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-00.54.44:777][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.54.44:778][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.54.44:792][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.54.44:794][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.12.29-00.54.44:836][836]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.12.29-00.54.54:395][315]LogHttp: Warning: 00000107A0541D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.54.54:395][315]LogHttp: Warning: 00000107A0541D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.54.54:395][315]LogHttp: Warning: 00000107A0541D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.54.54:395][315]LogHttp: Warning: 00000107A0541D00: libcurl info message cache 1 (Closing connection 4)
+[2021.12.29-00.54.54:731][316]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.55.39:042][447]Candidate modules for hot reload:
+[2021.12.29-00.55.39:042][447]  NGD_Coursework
+[2021.12.29-00.55.39:043][447]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,6353 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.55.39:049][447]Warning: Starting HotReload took  0.1s.
+[2021.12.29-00.55.50:349][771]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:55:50
+[2021.12.29-00.55.50:349][771]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.55.50:349][771]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.55.50:350][771]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.55.50:350][771]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   [1/4] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   [2/4] UE4Editor-NGD_Coursework-6353.lib
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-6353.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-6353.exp
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   [3/4] UE4Editor-NGD_Coursework-6353.dll
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-6353.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-6353.suppressed.exp
+[2021.12.29-00.55.50:350][771]CompilerResultsLog:   [4/4] NGD_CourseworkEditor.target
+[2021.12.29-00.55.50:350][771]CompilerResultsLog: Total time in Parallel executor: 7.15 seconds
+[2021.12.29-00.55.50:350][771]CompilerResultsLog: Total execution time: 10.96 seconds
+[2021.12.29-00.55.50:350][771]LogMainFrame: MainFrame: Module compiling took 11.312 seconds
+[2021.12.29-00.55.50:398][771]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0002 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.55.50:399][771]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.55.50:455][771]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0130 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.55.50:455][771]Display: HotReload took 11.5s.
+[2021.12.29-00.55.53:952][188]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.55.53:964][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.55.53:964][188]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:55:53）
+[2021.12.29-00.55.53:992][188]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.55.54:020][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029090s)
+[2021.12.29-00.55.54:021][188]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.55.54:022][188]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2021.12.29-00.55.54:022][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.030667s)
+[2021.12.29-00.55.54:039][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.12.29-00.55.54:039][188]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.12.29-00.55.54:039][188]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.55.54:039][188]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.55.54:040][188]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.55.54:040][188]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.55.54:040][188]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.55.54:040][188]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.55.54:040][188]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.55.54:040][188]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.55.54:040][188]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.55.54:040][188]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.55.54:066][188]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.55.54:066][188]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.55.54:107][188]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.55.54:108][188]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.55.54:108][188]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.55.54:108][188]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.55.54:108][188]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.55.54:108][188]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.55.54:108][188]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.55.54:120][188]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.55.54:120][188]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.55.54:120][188]LogInit: FAudioDevice initialized.
+[2021.12.29-00.55.54:120][188]LogAudio: Display: Audio Device (ID: 5) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.55.54:129][188]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.55.54:134][188]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.55.54
+[2021.12.29-00.55.54:134][188]LogWorld: Bringing up level for play took: 0.004571
+[2021.12.29-00.55.54:134][188]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.12.29-00.55.54:156][188]PIE: 登陆的服务器
+[2021.12.29-00.55.54:157][188]PIE: PIE总开始时间：0.201秒。
+[2021.12.29-00.55.54:230][194]LogHttp: Warning: 0000010794514F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.55.54:230][194]LogHttp: Warning: 0000010794514F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.55.54:230][194]LogHttp: Warning: 0000010794514F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.55.54:230][194]LogHttp: Warning: 0000010794514F00: libcurl info message cache 1 (Closing connection 5)
+[2021.12.29-00.55.54:230][194]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.55.56:339][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.55.56:339][441]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.55.56:339][441]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.55.56:340][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.55.56:345][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-00.55.56:347][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.55.56:351][441]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-00.55.56:351][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.55.56:353][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.55.56:366][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.55.56:368][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.12.29-00.55.56:415][443]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.12.29-00.56.45:118][606]Candidate modules for hot reload:
+[2021.12.29-00.56.45:118][606]  NGD_Coursework
+[2021.12.29-00.56.45:118][606]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,4233 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.56.45:126][606]Warning: Starting HotReload took  0.1s.
+[2021.12.29-00.56.54:093][597]LogHttp: Warning: 00000107932AF200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.56.54:093][597]LogHttp: Warning: 00000107932AF200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.56.54:093][597]LogHttp: Warning: 00000107932AF200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.56.54:093][597]LogHttp: Warning: 00000107932AF200: libcurl info message cache 1 (Closing connection 6)
+[2021.12.29-00.56.54:102][598]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.57.35:262][405]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:57:35
+[2021.12.29-00.57.35:263][405]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.57.35:263][405]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.12.29-00.57.35:263][405]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 32.5880885 seconds
+[2021.12.29-00.57.35:263][405]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.57.35:263][405]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.57.35:263][405]CompilerResultsLog: Building 12 actions with 8 processes...
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [1/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   NGD_Coursework.init.gen.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [2/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   PlayerPawn.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [3/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   NGD_CourseworkGameMode.gen.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [4/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   PlayerPawn.gen.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [5/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [6/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   HostPlayerPawn.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [7/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   HostPlayerPawn.gen.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [8/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   ClientPlayerPawn.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   [9/12] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   ClientPlayerPawn.gen.cpp
+[2021.12.29-00.57.35:263][405]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.57.35:264][405]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.57.35:264][405]CompilerResultsLog:   [10/12] UE4Editor-NGD_Coursework-4233.lib
+[2021.12.29-00.57.35:264][405]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4233.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4233.exp
+[2021.12.29-00.57.35:264][405]CompilerResultsLog:   [11/12] UE4Editor-NGD_Coursework-4233.dll
+[2021.12.29-00.57.35:264][405]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4233.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4233.suppressed.exp
+[2021.12.29-00.57.35:264][405]CompilerResultsLog:   [12/12] NGD_CourseworkEditor.target
+[2021.12.29-00.57.35:264][405]CompilerResultsLog: Total time in Parallel executor: 13.24 seconds
+[2021.12.29-00.57.35:264][405]CompilerResultsLog: Total execution time: 49.91 seconds
+[2021.12.29-00.57.35:264][405]LogMainFrame: MainFrame: Module compiling took 50.152 seconds
+[2021.12.29-00.57.35:307][405]LogClass: Could not find existing class ClientPlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.57.35:307][405]LogClass: Could not find existing class PlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.57.35:308][405]LogClass: Could not find existing class HostPlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.57.35:313][405]LogHotReload: Re-instancing ClientPlayerPawn after hot-reload.
+[2021.12.29-00.57.35:322][405]LogHotReload: Re-instancing HostPlayerPawn after hot-reload.
+[2021.12.29-00.57.35:333][405]LogHotReload: Re-instancing PlayerPawn after hot-reload.
+[2021.12.29-00.57.35:338][405]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.57.35:340][405]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.57.35:382][405]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.57.35:382][405]Display: HotReload took 50.3s.
+[2021.12.29-00.57.37:782][691]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.57.37:796][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.57.37:796][691]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:57:37）
+[2021.12.29-00.57.37:822][691]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.57.37:853][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030508s)
+[2021.12.29-00.57.37:855][691]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.57.37:855][691]LogPlayLevel: PIE: World Init took: (0.001718s)
+[2021.12.29-00.57.37:855][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.032561s)
+[2021.12.29-00.57.37:872][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.12.29-00.57.37:872][691]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.57.37:872][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.57.37:872][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.57.37:873][691]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.57.37:873][691]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.57.37:906][691]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.57.37:906][691]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.57.37:946][691]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.57.37:946][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.57.37:946][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.57.37:946][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.57.37:946][691]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.57.37:946][691]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.57.37:946][691]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.57.37:958][691]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.57.37:958][691]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.57.37:958][691]LogInit: FAudioDevice initialized.
+[2021.12.29-00.57.37:958][691]LogAudio: Display: Audio Device (ID: 6) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.57.37:968][691]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.57.37:974][691]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.57.37
+[2021.12.29-00.57.37:974][691]LogWorld: Bringing up level for play took: 0.005655
+[2021.12.29-00.57.37:974][691]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.12.29-00.57.37:994][691]PIE: 登陆的服务器
+[2021.12.29-00.57.37:994][691]PIE: PIE总开始时间：0.207秒。
+[2021.12.29-00.57.40:631][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.57.40:631][997]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.57.40:631][997]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.57.40:632][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.57.40:643][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-00.57.40:645][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.57.40:649][997]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-00.57.40:649][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.57.40:650][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.57.40:664][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.57.40:666][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.12.29-00.57.40:709][999]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.12.29-00.57.54:530][130]LogHttp: Warning: 00000107939CA400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.57.54:530][130]LogHttp: Warning: 00000107939CA400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.57.54:530][130]LogHttp: Warning: 00000107939CA400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.57.54:530][130]LogHttp: Warning: 00000107939CA400: libcurl info message cache 1 (Closing connection 7)
+[2021.12.29-00.57.54:530][130]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.58.32:065][460]Cmd: DELETE
+[2021.12.29-00.58.32:066][460]Cmd: ACTOR DELETE
+[2021.12.29-00.58.32:085][460]LogEditorActor: Deleted Actor: HostPlayerPawn
+[2021.12.29-00.58.32:101][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.12.29-00.58.32:102][460]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2021.12.29-00.58.33:224][566]LogEditor: Attempting to add actor of class 'PlayerPawn' to level at 550.00,-60.00,100.00
+[2021.12.29-00.58.33:798][630]LogEditor: Attempting to add actor of class 'PlayerPawn' to level at 1940.00,-180.00,100.00
+[2021.12.29-00.58.34:536][708]Cmd: TRANSACTION UNDO
+[2021.12.29-00.58.34:537][708]LogEditorTransaction: Undo 创建Actor
+[2021.12.29-00.58.34:575][708]LogSlate: Took 0.006430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.29-00.58.34:761][719]Cmd: TRANSACTION UNDO
+[2021.12.29-00.58.34:761][719]LogEditorTransaction: Undo 删除Actor
+[2021.12.29-00.58.37:660][979]LogEditor: Attempting to add actor of class 'PlayerPawn' to level at 480.00,-590.00,100.00
+[2021.12.29-00.58.38:069][ 21]LogEditor: Attempting to add actor of class 'PlayerPawn' to level at 1070.00,-1700.00,100.00
+[2021.12.29-00.58.52:555][595]Cmd: DELETE
+[2021.12.29-00.58.52:555][595]Cmd: ACTOR DELETE
+[2021.12.29-00.58.52:559][595]LogEditorActor: Deleted Actor: HostPlayerPawn
+[2021.12.29-00.58.52:570][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.12.29-00.58.52:570][595]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2021.12.29-00.58.54:083][777]LogHttp: Warning: 0000010794488800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.58.54:083][777]LogHttp: Warning: 0000010794488800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.58.54:083][777]LogHttp: Warning: 0000010794488800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.58.54:083][777]LogHttp: Warning: 0000010794488800: libcurl info message cache 1 (Closing connection 8)
+[2021.12.29-00.58.54:092][778]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-00.58.54:810][860]Candidate modules for hot reload:
+[2021.12.29-00.58.54:810][860]  NGD_Coursework
+[2021.12.29-00.58.54:811][860]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,4874 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.58.54:817][860]Warning: Starting HotReload took  0.0s.
+[2021.12.29-00.59.19:994][774]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:59:19
+[2021.12.29-00.59.19:995][774]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.59.19:995][774]CompilerResultsLog: Parsing headers for NGD_CourseworkEditor
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\NGD_Coursework.uproject" "C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\NGD_CourseworkEditor\Development\NGD_CourseworkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kingw\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.12.29-00.59.19:995][774]CompilerResultsLog: Reflection code generated for NGD_CourseworkEditor in 7.2553501 seconds
+[2021.12.29-00.59.19:995][774]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.59.19:995][774]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.59.19:995][774]CompilerResultsLog: Building 11 actions with 8 processes...
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [1/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   NGD_Coursework.init.gen.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [2/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   PlayerPawn.gen.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [3/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   PlayerPawn.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [4/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   ClientPlayerPawn.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [5/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   HostPlayerPawn.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [6/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   ClientPlayerPawn.gen.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [7/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   HostPlayerPawn.gen.cpp
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   [8/11] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.19:995][774]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:   [9/11] UE4Editor-NGD_Coursework-4874.lib
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4874.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4874.exp
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:   [10/11] UE4Editor-NGD_Coursework-4874.dll
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4874.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-4874.suppressed.exp
+[2021.12.29-00.59.19:996][774]CompilerResultsLog:   [11/11] NGD_CourseworkEditor.target
+[2021.12.29-00.59.19:996][774]CompilerResultsLog: Total time in Parallel executor: 14.83 seconds
+[2021.12.29-00.59.19:996][774]CompilerResultsLog: Total execution time: 24.99 seconds
+[2021.12.29-00.59.19:996][774]LogMainFrame: MainFrame: Module compiling took 25.189 seconds
+[2021.12.29-00.59.20:033][774]LogClass: Could not find existing class ClientPlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.59.20:033][774]LogClass: Could not find existing class PlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.59.20:034][774]LogClass: Could not find existing class HostPlayerPawn in package /Script/NGD_Coursework for HotReload, assuming new class
+[2021.12.29-00.59.20:042][774]LogHotReload: Re-instancing ClientPlayerPawn after hot-reload.
+[2021.12.29-00.59.20:049][774]LogHotReload: Re-instancing HostPlayerPawn after hot-reload.
+[2021.12.29-00.59.20:058][774]LogHotReload: Re-instancing PlayerPawn after hot-reload.
+[2021.12.29-00.59.20:069][774]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.59.20:071][774]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.59.20:134][774]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0120 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.59.20:134][774]Display: HotReload took 25.3s.
+[2021.12.29-00.59.21:909][985]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.59.21:924][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.59.21:924][985]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:59:21）
+[2021.12.29-00.59.21:924][985]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.59.21:946][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021892s)
+[2021.12.29-00.59.21:947][985]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.59.21:948][985]LogPlayLevel: PIE: World Init took: (0.001875s)
+[2021.12.29-00.59.21:948][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.024035s)
+[2021.12.29-00.59.21:966][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.12.29-00.59.21:966][985]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.59.21:966][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.59.21:966][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.59.21:967][985]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.59.21:967][985]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.59.21:995][985]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.59.21:995][985]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.59.22:038][985]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.59.22:038][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.59.22:038][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.59.22:038][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.59.22:039][985]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.59.22:039][985]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.59.22:039][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.59.22:053][985]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.59.22:053][985]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.59.22:053][985]LogInit: FAudioDevice initialized.
+[2021.12.29-00.59.22:053][985]LogAudio: Display: Audio Device (ID: 7) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.59.22:059][985]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.59.22:066][985]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.59.22
+[2021.12.29-00.59.22:070][985]LogWorld: Bringing up level for play took: 0.010531
+[2021.12.29-00.59.22:070][985]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.12.29-00.59.22:096][985]PIE: 登陆的服务器
+[2021.12.29-00.59.22:097][985]PIE: PIE总开始时间：0.183秒。
+[2021.12.29-00.59.26:779][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.59.26:779][535]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.59.26:780][535]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-00.59.26:780][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.59.26:791][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-00.59.26:793][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-00.59.26:798][535]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-00.59.26:798][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.59.26:799][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-00.59.26:817][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-00.59.26:820][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.12.29-00.59.26:866][537]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.12.29-00.59.37:920][798]Candidate modules for hot reload:
+[2021.12.29-00.59.37:920][798]  NGD_Coursework
+[2021.12.29-00.59.37:921][798]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=NGD_Coursework,2627 NGD_CourseworkEditor Win64 Development -Project="C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject" "C:/Unreal Projects/Network-Game-Development/NGD_Coursework/NGD_Coursework.uproject"  -IgnoreJunk]
+[2021.12.29-00.59.37:927][798]Warning: Starting HotReload took  0.0s.
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: New page: 编译——2021年12月29日 上午12:59:49
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Network-Game-Development).
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: Building NGD_CourseworkEditor...
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   [1/4] cl: ?????? warning D9025 :??????д??/Zm1000??(?á?/Zm2000??)
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   NGD_CourseworkGameMode.cpp
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: ??TEXT??: ???ض???
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: ?μ???TEXT????ǰһ??????
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   [2/4] UE4Editor-NGD_Coursework-2627.lib
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2627.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2627.exp
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   [3/4] UE4Editor-NGD_Coursework-2627.dll
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:     ???ڴ????? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2627.suppressed.lib ?Ͷ??? C:\Unreal Projects\Network-Game-Development\NGD_Coursework\Intermediate\Build\Win64\UE4Editor\Development\NGD_Coursework\UE4Editor-NGD_Coursework-2627.suppressed.exp
+[2021.12.29-00.59.49:143][100]CompilerResultsLog:   [4/4] NGD_CourseworkEditor.target
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: Total time in Parallel executor: 7.27 seconds
+[2021.12.29-00.59.49:143][100]CompilerResultsLog: Total execution time: 10.95 seconds
+[2021.12.29-00.59.49:143][100]LogMainFrame: MainFrame: Module compiling took 11.228 seconds
+[2021.12.29-00.59.49:188][100]LogHotReload: Re-instancing NGD_CourseworkGameMode after hot-reload.
+[2021.12.29-00.59.49:194][100]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'NGD_Coursework' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.12.29-00.59.49:196][100]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.12.29-00.59.49:244][100]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0130 seconds. Added 3587 classes and 843 folders.
+[2021.12.29-00.59.49:244][100]Display: HotReload took 11.3s.
+[2021.12.29-00.59.50:858][292]LogTemp: Repeating last play command: 选中的视口
+[2021.12.29-00.59.50:872][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.29-00.59.50:872][292]PIE: New page: PIE会话：FlyingExampleMap_Network（2021年12月29日 上午12:59:50）
+[2021.12.29-00.59.50:921][292]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-00.59.50:940][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019276s)
+[2021.12.29-00.59.50:942][292]LogAIModule: Creating AISystem for world FlyingExampleMap_Network
+[2021.12.29-00.59.50:942][292]LogPlayLevel: PIE: World Init took: (0.002120s)
+[2021.12.29-00.59.50:942][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap_Network.FlyingExampleMap_Network to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network (0.021708s)
+[2021.12.29-00.59.50:958][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.12.29-00.59.50:959][292]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.29-00.59.50:959][292]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.29-00.59.50:959][292]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.29-00.59.50:959][292]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.29-00.59.50:960][292]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.29-00.59.50:987][292]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.29-00.59.50:988][292]LogAudioMixer: Display: 1: FrontRight
+[2021.12.29-00.59.51:025][292]LogAudioMixer: Display: Using Audio Device 扬声器 (Bose Mini SoundLink Stereo)
+[2021.12.29-00.59.51:025][292]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.29-00.59.51:025][292]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.29-00.59.51:025][292]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.29-00.59.51:026][292]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.29-00.59.51:026][292]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.29-00.59.51:026][292]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.29-00.59.51:038][292]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.29-00.59.51:038][292]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.29-00.59.51:038][292]LogInit: FAudioDevice initialized.
+[2021.12.29-00.59.51:038][292]LogAudio: Display: Audio Device (ID: 8) registered with world 'FlyingExampleMap_Network'.
+[2021.12.29-00.59.51:043][292]LogLoad: Game class is 'NGD_CourseworkGameMode'
+[2021.12.29-00.59.51:051][292]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network.FlyingExampleMap_Network up for play (max tick rate 0) at 2021.12.29-00.59.51
+[2021.12.29-00.59.51:052][292]LogWorld: Bringing up level for play took: 0.007692
+[2021.12.29-00.59.51:052][292]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.12.29-00.59.51:074][292]PIE: 登陆的服务器
+[2021.12.29-00.59.51:074][292]PIE: PIE总开始时间：0.212秒。
+[2021.12.29-00.59.54:074][647]LogHttp: Warning: 00000107938B0800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.29-00.59.54:074][647]LogHttp: Warning: 00000107938B0800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.12.29-00.59.54:074][647]LogHttp: Warning: 00000107938B0800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.12.29-00.59.54:074][647]LogHttp: Warning: 00000107938B0800: libcurl info message cache 1 (Closing connection 9)
+[2021.12.29-00.59.54:083][648]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E7D2A7C-4EC5-4722-2D39-3FB55900DBD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=466b471d446d025059eaf0a5f78a3b1a%7C396838ba5a0a43769f0d15109cd96dcd%7Ce54e1bd6-6290-433f-8834-1b96e1914d85&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.29-01.00.05:549][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-01.00.05:549][ 17]LogWorld: BeginTearingDown for /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap_Network
+[2021.12.29-01.00.05:549][ 17]LogWorld: UWorld::CleanupWorld for FlyingExampleMap_Network, bSessionEnded=true, bCleanupResources=true
+[2021.12.29-01.00.05:550][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-01.00.05:557][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.29-01.00.05:558][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.29-01.00.05:562][ 17]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.29-01.00.05:563][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-01.00.05:563][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.29-01.00.05:577][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.29-01.00.05:579][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.12.29-01.00.05:619][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.12.29-01.00.06:560][131]Cmd: TRANSACTION UNDO
+[2021.12.29-01.00.06:560][131]LogEditorTransaction: Undo 删除Actor
+[2021.12.29-01.00.06:561][131]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.12.29-01.00.08:751][131]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.191 s
+[2021.12.29-01.00.08:751][131]LogOutputDevice: Error: === Handled ensure: ===
+[2021.12.29-01.00.08:751][131]LogOutputDevice: Error: 
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: Ensure condition failed: NewClass != OldClass [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/ActorEditor.cpp] [Line: 530]
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: 
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: Stack: 
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba9a3b089 UE4Editor-Engine.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba8070784 UE4Editor-Engine.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba8078e41 UE4Editor-Engine.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba4438884 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba44837d0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba43e10f1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba43dafbe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffba4c5db77 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffb920153c5 UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffb92015eae UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12933a9 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12cc62a UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffb920237de UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffb92015065 UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12ce3ec UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12c2226 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c7b958 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c69197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c7e389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c64310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffc563de7e8 USER32.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffc563de229 USER32.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c7f914 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede58848 UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede7117c UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede7125a UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede852bd UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede87fea UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffc56177034 KERNEL32.DLL!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: [Callstack] 0x00007ffc58142651 ntdll.dll!UnknownFunction []
+[2021.12.29-01.00.08:752][131]LogOutputDevice: Error: 
+[2021.12.29-01.00.08:758][131]LogStats:                SubmitErrorReport -  0.000 s
+[2021.12.29-01.00.12:981][131]LogStats:                    SendNewReport -  4.224 s
+[2021.12.29-01.00.12:981][131]LogStats:             FDebug::EnsureFailed -  6.421 s
+[2021.12.29-01.00.12:981][131]LogActor: Warning: WARNING: HOTRELOADED_HostPlayerPawn_8 is out of date and is the same as its AuthoritativeClass during PostEditUndo!
+[2021.12.29-01.00.12:995][131]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.12.29-01.00.12:997][131]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: === Handled ensure: ===
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: 
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: Ensure condition failed: NewClass != OldClass [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp] [Line: 1282]
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: 
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: Stack: 
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba4fde799 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba440ab7e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba43f4ee2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba43e187d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba4483850 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba43e10f1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba43dafbe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffba4c5db77 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffb920153c5 UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffb92015eae UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12933a9 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12cc62a UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffb920237de UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffb92015065 UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12ce3ec UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb12c2226 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c7b958 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c69197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c7e389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c64310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffc563de7e8 USER32.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffc563de229 USER32.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffbb1c7f914 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede58848 UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede7117c UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede7125a UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede852bd UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ff6ede87fea UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffc56177034 KERNEL32.DLL!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: [Callstack] 0x00007ffc58142651 ntdll.dll!UnknownFunction []
+[2021.12.29-01.00.12:997][131]LogOutputDevice: Error: 
+[2021.12.29-01.00.13:004][131]LogStats:                SubmitErrorReport -  0.000 s
+[2021.12.29-01.00.21:682][131]LogStats:                    SendNewReport -  8.679 s
+[2021.12.29-01.00.21:682][131]LogStats:             FDebug::EnsureFailed -  8.688 s
+[2021.12.29-01.00.21:682][131]LogActor: Warning: WARNING: HOTRELOADED_HostPlayerPawn_8 is out of date and is the same as its AuthoritativeClass during PostUndo!
+[2021.12.29-01.00.21:684][131]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.12.29-01.00.21:685][131]LogWindows: Windows GetLastError: 操作成功完成。 (0)
+[2021.12.29-01.00.29:346][131]LogWindows: Error: === Critical error: ===
+[2021.12.29-01.00.29:346][131]LogWindows: Error: 
+[2021.12.29-01.00.29:346][131]LogWindows: Error: Assertion failed: OldClass != NewClass || GIsHotReload [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp] [Line: 2091] 
+[2021.12.29-01.00.29:346][131]LogWindows: Error: 
+[2021.12.29-01.00.29:346][131]LogWindows: Error: 
+[2021.12.29-01.00.29:346][131]LogWindows: Error: 
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffc55c24f99 KERNELBASE.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb309d066 UE4Editor-Core.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb30a07a8 UE4Editor-Core.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb2dae8cd UE4Editor-Core.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb2d45575 UE4Editor-Core.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb2d47620 UE4Editor-Core.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba48097ae UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba47be637 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba440b446 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba43f4ee2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba43e187d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba4483850 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba43e10f1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba43dafbe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffba4c5db77 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffb920153c5 UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffb92015eae UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb12933a9 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb12cc62a UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffb920237de UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffb92015065 UE4Editor-MainFrame.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb12ce3ec UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb12c2226 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb1c7b958 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb1c69197 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb1c7e389 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb1c64310 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffc563de7e8 USER32.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffc563de229 USER32.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffbb1c7f914 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ff6ede58848 UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ff6ede7117c UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ff6ede7125a UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ff6ede852bd UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ff6ede87fea UE4Editor.exe!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffc56177034 KERNEL32.DLL!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: [Callstack] 0x00007ffc58142651 ntdll.dll!UnknownFunction []
+[2021.12.29-01.00.29:346][131]LogWindows: Error: 
+[2021.12.29-01.00.29:352][131]LogExit: Executing StaticShutdownAfterError
+[2021.12.29-01.00.29:369][131]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.12.29-01.00.29:369][131]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.12.29-01.00.29:382][131]Log file closed, 12/29/21 01:00:29

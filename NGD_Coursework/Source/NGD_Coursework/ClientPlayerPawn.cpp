@@ -3,7 +3,13 @@
 
 #include "ClientPlayerPawn.h"
 
-AClientPlayerPawn::AClientPlayerPawn()
+AClientPlayerPawn::AClientPlayerPawn() : Super()
 {
-	NetworkComponent = CreateDefaultSubobject<UClientPlayerPawnNetworkComponent>(TEXT("Network"));
+	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bStartWithTickEnabled = true;
+	PrimaryActorTick.bAllowTickOnDedicatedServer = true;
+	PrimaryActorTick.bTickEvenWhenPaused = true;
+	PrimaryActorTick.SetTickFunctionEnable(true);
+
+	//NetworkComponent = CreateDefaultSubobject<UClientPlayerPawnNetworkComponent>(TEXT("Network"));
 }

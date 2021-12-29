@@ -5,7 +5,9 @@
 #include "GameFramework/Pawn.h"
 #include "PlayerPawn.generated.h"
 
-UCLASS(Config=Game, Abstract)
+UCLASS(Config=Game
+	//, Abstract
+)
 class APlayerPawn : public APawn
 {
 	GENERATED_BODY()
@@ -29,6 +31,19 @@ public:
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
 	// End AActor overrides
 
+//protected:
+//	// Begin APawn overrides
+//	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override; // Allows binding actions/axes to functions
+//	// End APawn overrides
+//
+//	/** Bound to the thrust axis */
+//	void ThrustInput(float Val);
+//
+//	/** Bound to the vertical axis */
+//	void MoveUpInput(float Val);
+//
+//	/** Bound to the horizontal axis */
+//	void MoveRightInput(float Val);
 
 protected:
 

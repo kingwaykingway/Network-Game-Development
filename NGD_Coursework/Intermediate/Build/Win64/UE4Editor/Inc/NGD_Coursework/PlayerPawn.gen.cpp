@@ -72,9 +72,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerPawn_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "//, Abstract\n" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "PlayerPawn.h" },
 		{ "ModuleRelativePath", "PlayerPawn.h" },
+		{ "ToolTip", ", Abstract" },
 	};
 #endif
 #if WITH_METADATA
@@ -170,7 +172,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_APlayerPawn_Statics::PropPointers),
 		0,
-		0x008000A5u,
+		0x008000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_APlayerPawn_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerPawn_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APlayerPawn()
@@ -182,7 +184,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerPawn, 1336883541);
+	IMPLEMENT_CLASS(APlayerPawn, 2616132450);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<APlayerPawn>()
 	{
 		return APlayerPawn::StaticClass();

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NGD_Coursework.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{96775374-245F-4276-BAEB-B51C7D8E7A96}</UniqueIdentifier>
+      <UniqueIdentifier>{F6D7F9C2-D3AB-4ABF-9D85-EF9E51D3A8F7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NGD_Coursework.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4164C379-B8B6-409D-8F8C-1F7393D0A775}</UniqueIdentifier>
+      <UniqueIdentifier>{AC57AF9A-46D7-434C-A37E-2F2890FAA7C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NGD_Coursework">
-      <UniqueIdentifier>{65D9D1DD-2452-4873-9068-DE111460BE82}</UniqueIdentifier>
+      <UniqueIdentifier>{E5D891A5-94E2-422A-A24C-B920D1487DBE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NGD_Coursework\ClientPlayerPawn.cpp">
       <Filter>Source\NGD_Coursework</Filter>

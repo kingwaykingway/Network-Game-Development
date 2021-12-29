@@ -17,6 +17,9 @@ public:
 protected:
 
 	virtual void StartPlay() override;
+	//virtual void Tick(float DeltaSeconds) override;
+
+	AActor* player;
 
 	//UFUNCTION(BlueprintNativeEvent, Category = Game)
 	//AActor* FindPlayerStart(AController* Player, const FString& IncomingName = TEXT("")) override;

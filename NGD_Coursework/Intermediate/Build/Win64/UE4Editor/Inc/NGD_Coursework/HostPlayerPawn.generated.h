@@ -58,10 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHostPlayerPawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHostPlayerPawn)
 
 
-#define NGD_Coursework_Source_NGD_Coursework_HostPlayerPawn_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__NetworkComponent() { return STRUCT_OFFSET(AHostPlayerPawn, NetworkComponent); }
-
-
+#define NGD_Coursework_Source_NGD_Coursework_HostPlayerPawn_h_17_PRIVATE_PROPERTY_OFFSET
 #define NGD_Coursework_Source_NGD_Coursework_HostPlayerPawn_h_14_PROLOG
 #define NGD_Coursework_Source_NGD_Coursework_HostPlayerPawn_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

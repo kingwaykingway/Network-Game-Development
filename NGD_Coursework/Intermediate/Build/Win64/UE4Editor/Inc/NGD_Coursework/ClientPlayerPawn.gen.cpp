@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeClientPlayerPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AClientPlayerPawn, 1653115299);
+	IMPLEMENT_CLASS(AClientPlayerPawn, 1309897532);
 	template<> NGD_COURSEWORK_API UClass* StaticClass<AClientPlayerPawn>()
 	{
 		return AClientPlayerPawn::StaticClass();

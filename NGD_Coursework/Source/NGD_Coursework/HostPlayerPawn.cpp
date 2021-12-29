@@ -3,10 +3,30 @@
 
 #include "HostPlayerPawn.h"
 
-AHostPlayerPawn::AHostPlayerPawn() : APlayerPawn()
+AHostPlayerPawn::AHostPlayerPawn() : Super()
 {
-	NetworkComponent = CreateDefaultSubobject<UHostPlayerPawnNetworkComponent>(TEXT("Network"));
+	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bStartWithTickEnabled = true;
+	PrimaryActorTick.bAllowTickOnDedicatedServer = true;
+	PrimaryActorTick.bTickEvenWhenPaused = true;
+	PrimaryActorTick.SetTickFunctionEnable(true);
+
+	//Super();
+	//NetworkComponent = CreateDefaultSubobject<UHostPlayerPawnNetworkComponent>(TEXT("Network"));
 }
+
+//void AHostPlayerPawn::Tick(float DeltaSeconds)
+//{
+//	GEngine->AddOnScreenDebugMessage(1, 5.0f, FColor::Yellow,
+//		"tick"
+//	);
+//
+//	GEngine->AddOnScreenDebugMessage(1, 5.0f, FColor::Yellow, FString::SanitizeFloat(
+//		CurrentForwardSpeed
+//	), true);
+//
+//	Super::Tick(DeltaSeconds);
+//}
 
 void AHostPlayerPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {

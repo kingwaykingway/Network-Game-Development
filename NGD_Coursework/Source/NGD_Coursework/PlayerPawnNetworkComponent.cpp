@@ -51,6 +51,8 @@ void UPlayerPawnNetworkComponent::TickComponent(float DeltaTime, ELevelTick Tick
 
 void UPlayerPawnNetworkComponent::BeginDestroy()
 {
+	Super::BeginDestroy();
+
 	Disconnect();
 }
 

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "NGD_Coursework",
-			"Path": "D:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_Coursework.Target.cs",
+			"Path": "C:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_Coursework.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "NGD_CourseworkEditor",
-			"Path": "D:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_CourseworkEditor.Target.cs",
+			"Path": "C:\\Unreal Projects\\Network-Game-Development\\NGD_Coursework\\Source\\NGD_CourseworkEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

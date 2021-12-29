@@ -11,7 +11,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Config = Game)
 class NGD_COURSEWORK_API AClientPlayerPawn : public APlayerPawn
 {
 	GENERATED_BODY()
