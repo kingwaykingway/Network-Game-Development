@@ -64,9 +64,8 @@ void AFlyingPawn::Tick(float DeltaSeconds)
 	// Rotate plane
 	AddActorLocalRotation(DeltaRotation);
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::SanitizeFloat(
-		CurrentForwardSpeed
-	), true);
+	const FString msg = GetName() + " speed=" + FString::SanitizeFloat(CurrentForwardSpeed);
+	GEngine->AddOnScreenDebugMessage(-1, DeltaSeconds, FColor::White, msg, true);
 
 	// Call any parent class Tick implementation
 	Super::Tick(DeltaSeconds);

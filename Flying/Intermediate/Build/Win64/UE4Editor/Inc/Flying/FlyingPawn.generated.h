@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesAFlyingPawn(); \
 	friend struct Z_Construct_UClass_AFlyingPawn_Statics; \
 public: \
-	DECLARE_CLASS(AFlyingPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
+	DECLARE_CLASS(AFlyingPawn, APawn, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
 	DECLARE_SERIALIZER(AFlyingPawn)
 
 
@@ -30,7 +30,7 @@ private: \
 	static void StaticRegisterNativesAFlyingPawn(); \
 	friend struct Z_Construct_UClass_AFlyingPawn_Statics; \
 public: \
-	DECLARE_CLASS(AFlyingPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
+	DECLARE_CLASS(AFlyingPawn, APawn, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
 	DECLARE_SERIALIZER(AFlyingPawn)
 
 

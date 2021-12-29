@@ -24,7 +24,7 @@ struct TCPMessage
 	EventType eventType;
 };
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Abstract )
 class FLYING_API UNetworkComponent : public UActorComponent
 {
 	GENERATED_BODY()

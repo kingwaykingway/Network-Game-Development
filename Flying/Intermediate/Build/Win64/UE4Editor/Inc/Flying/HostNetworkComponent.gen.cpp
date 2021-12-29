@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeHostNetworkComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHostNetworkComponent, 1464256407);
+	IMPLEMENT_CLASS(UHostNetworkComponent, 2586842908);
 	template<> FLYING_API UClass* StaticClass<UHostNetworkComponent>()
 	{
 		return UHostNetworkComponent::StaticClass();

@@ -170,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeFlyingPawn() {}
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AFlyingPawn_Statics::PropPointers),
 		0,
-		0x008000A4u,
+		0x008000A5u,
 		METADATA_PARAMS(Z_Construct_UClass_AFlyingPawn_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AFlyingPawn_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AFlyingPawn()
@@ -182,7 +182,7 @@ void EmptyLinkFunctionForGeneratedCodeFlyingPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlyingPawn, 2141977595);
+	IMPLEMENT_CLASS(AFlyingPawn, 627475015);
 	template<> FLYING_API UClass* StaticClass<AFlyingPawn>()
 	{
 		return AFlyingPawn::StaticClass();

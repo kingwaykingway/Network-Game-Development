@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeClientFlyingPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AClientFlyingPawn, 2239639552);
+	IMPLEMENT_CLASS(AClientFlyingPawn, 801391459);
 	template<> FLYING_API UClass* StaticClass<AClientFlyingPawn>()
 	{
 		return AClientFlyingPawn::StaticClass();

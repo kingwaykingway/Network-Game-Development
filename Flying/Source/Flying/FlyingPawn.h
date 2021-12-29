@@ -5,7 +5,7 @@
 #include "GameFramework/Pawn.h"
 #include "FlyingPawn.generated.h"
 
-UCLASS(Config=Game)
+UCLASS(Config=Game, Abstract)
 class AFlyingPawn : public APawn
 {
 	GENERATED_BODY()

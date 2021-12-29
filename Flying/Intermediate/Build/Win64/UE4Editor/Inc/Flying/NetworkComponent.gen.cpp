@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeNetworkComponent() {}
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_UNetworkComponent_Statics::PropPointers),
 		0,
-		0x00B000A4u,
+		0x00B000A5u,
 		METADATA_PARAMS(Z_Construct_UClass_UNetworkComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UNetworkComponent_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UNetworkComponent()
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeNetworkComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UNetworkComponent, 826516636);
+	IMPLEMENT_CLASS(UNetworkComponent, 685537676);
 	template<> FLYING_API UClass* StaticClass<UNetworkComponent>()
 	{
 		return UNetworkComponent::StaticClass();

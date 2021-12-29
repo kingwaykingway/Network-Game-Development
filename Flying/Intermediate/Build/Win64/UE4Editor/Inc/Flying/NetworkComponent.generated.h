@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesUNetworkComponent(); \
 	friend struct Z_Construct_UClass_UNetworkComponent_Statics; \
 public: \
-	DECLARE_CLASS(UNetworkComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
+	DECLARE_CLASS(UNetworkComponent, UActorComponent, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
 	DECLARE_SERIALIZER(UNetworkComponent)
 
 
@@ -30,7 +30,7 @@ private: \
 	static void StaticRegisterNativesUNetworkComponent(); \
 	friend struct Z_Construct_UClass_UNetworkComponent_Statics; \
 public: \
-	DECLARE_CLASS(UNetworkComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
+	DECLARE_CLASS(UNetworkComponent, UActorComponent, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Flying"), NO_API) \
 	DECLARE_SERIALIZER(UNetworkComponent)
 
 

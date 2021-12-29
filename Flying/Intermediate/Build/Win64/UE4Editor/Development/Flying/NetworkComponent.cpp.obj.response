@@ -230,8 +230,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying"
-/I "C:\Unreal Projects\Flying\Source"
+/I "C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying"
+/I "C:\Unreal Projects\Network-Game-Development\Flying\Source"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Unreal Projects\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Unreal Projects\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Unreal Projects\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Unreal Projects\Flying\Source\Flying\NetworkComponent.cpp"
-/FI"C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Definitions.Flying.h"
-/Fo"C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\NetworkComponent.cpp.obj"
+/FI"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Unreal Projects\Network-Game-Development\Flying\Source\Flying\NetworkComponent.cpp"
+/FI"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Definitions.Flying.h"
+/Fo"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\NetworkComponent.cpp.obj"
 /TP
 /GR-
 /W4

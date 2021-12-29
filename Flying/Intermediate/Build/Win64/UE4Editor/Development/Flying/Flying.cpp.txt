@@ -1,2 +1,2 @@
-C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Definitions.Flying.h
-C:\Unreal Projects\Flying\Source\Flying\Flying.h
+C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Definitions.Flying.h
+C:\Unreal Projects\Network-Game-Development\Flying\Source\Flying\Flying.h
