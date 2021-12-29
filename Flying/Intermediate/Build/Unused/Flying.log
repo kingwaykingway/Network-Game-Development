@@ -1,0 +1,16 @@
+﻿  Building FlyingEditor...
+  Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] ClientNetworkComponent.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
+    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+    [2/5] HostNetworkComponent.cpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h(584): warning C4005: 'TEXT': macro redefinition
+    C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h(1082): note: see previous definition of 'TEXT'
+    [3/5] UE4Editor-Flying-0008.lib
+       Creating library C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\UE4Editor-Flying-0008.lib and object C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\UE4Editor-Flying-0008.exp
+    [4/5] UE4Editor-Flying-0008.dll
+       Creating library C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\UE4Editor-Flying-0008.suppressed.lib and object C:\Unreal Projects\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\UE4Editor-Flying-0008.suppressed.exp
+    [5/5] FlyingEditor.target
+  Total time in Parallel executor: 26.34 seconds
+  Total execution time: 28.75 seconds

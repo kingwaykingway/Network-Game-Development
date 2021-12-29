@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Flying",
+			"Path": "C:\\Unreal Projects\\Flying\\Source\\Flying.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FlyingEditor",
+			"Path": "C:\\Unreal Projects\\Flying\\Source\\FlyingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
