@@ -5,5 +5,5 @@
 
 AClientFlyingPawn::AClientFlyingPawn()
 {
-	//NetworkComponent = CreateDefaultSubobject<UClientNetworkComponent>(TEXT("Network"));
+	NetworkComponent = CreateDefaultSubobject<UClientNetworkComponent>(TEXT("ClientNetworkComponent"));
 }

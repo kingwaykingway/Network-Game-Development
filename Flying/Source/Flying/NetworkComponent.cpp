@@ -2,6 +2,7 @@
 
 
 #include "NetworkComponent.h"
+#include <Flying/FlyingPawn.h>
 
 UNetworkComponent::UNetworkComponent()
 {
@@ -9,6 +10,9 @@ UNetworkComponent::UNetworkComponent()
 
 	m_ip = "127.0.0.1";
 	m_port = 4444;
+
+	printDetailMessage = false;
+	printErrorMessage = true;
 }
 
 void UNetworkComponent::BeginPlay()
@@ -59,15 +63,29 @@ bool UNetworkComponent::UDPConnect()
 	m_UDP_socket = socket(AF_INET, SOCK_DGRAM, 0);
 	if (m_UDP_socket == INVALID_SOCKET)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::Printf(TEXT(
-			"UDP socket failed"
-		)), true);
+		if (printErrorMessage)
+		{
+			m = "UDP socket failed";
+			GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, m, true);
+		}
 		return false;
 	}
 
 	m_address.sin_family = AF_INET;
 	m_address.sin_port = htons(m_port);
 	m_address.sin_addr.s_addr = inet_addr(TCHAR_TO_ANSI(*m_ip));
+
+	if (printDetailMessage)
+	{
+		m = GetName() + ": UDP connected. " + '\n'
+			+ "IP address" + m_ip + '\n'
+			+ "port: " + FString::FromInt(m_port) + '\n'
+			//+ "player ID: " + FString::FromInt(GetOwner()->GetUniqueID()) + '\n'
+			+ "player ID: " + FString::FromInt(Cast<AFlyingPawn>(GetOwner())->GetPlayerID()) + '\n'
+		;
+		GEngine->AddOnScreenDebugMessage(-1, 1000.0f, FColor::Yellow, m, true);
+	}
+
 
 	return true;
 }
@@ -78,16 +96,20 @@ bool UNetworkComponent::Initialize()
 	int error = WSAStartup(0x0202, &w);
 	if (error != 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::Printf(TEXT(
-			"WSAStartup failed"
-		)), true);
+		if (printErrorMessage)
+		{
+			m = "WSAStartup failed";
+			GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, m, true);
+		}
 		return false;
 	}
 	if (w.wVersion != 0x0202)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::Printf(TEXT(
-			"Wrong WinSock version"
-		)), true);
+		if (printErrorMessage)
+		{
+			m = "Wrong WinSock version";
+			GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, m, true);
+		}
 		return false;
 	}
 

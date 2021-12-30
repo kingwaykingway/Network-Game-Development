@@ -81,4 +81,13 @@ public:
 	FORCEINLINE class USpringArmComponent* GetSpringArm() const { return SpringArm; }
 	/** Returns Camera subobject **/
 	FORCEINLINE class UCameraComponent* GetCamera() const { return Camera; }
+
+	////////
+protected:
+	int playerID = -1;
+
+public:
+	float GetCurrentForwardSpeed();
+	int GetPlayerID();
+	void SetPlayerID(int playerID);
 };

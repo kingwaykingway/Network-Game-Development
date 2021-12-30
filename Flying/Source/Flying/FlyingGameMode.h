@@ -13,6 +13,8 @@ class AFlyingGameMode : public AGameModeBase
 
 public:
 	AFlyingGameMode();
+
+	virtual void StartPlay() override;
 };
 
 

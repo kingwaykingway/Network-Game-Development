@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Flying-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\FlyingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\ClientFlyingPawn.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\ClientNetworkComponent.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Flying.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\FlyingGameMode.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\FlyingPawn.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\HostFlyingPawn.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\HostNetworkComponent.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\NetworkComponent.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\ClientFlyingPawn.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\ClientNetworkComponent.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Flying.init.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\FlyingGameMode.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\FlyingPawn.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\HostFlyingPawn.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\HostNetworkComponent.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\NetworkComponent.gen.cpp.obj"
+"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Default.rc2.res"
+/OUT:"C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\UE4Editor-Flying-0001.lib"
+/INCLUDE:IMPLEMENT_MODULE_Flying

@@ -205,3 +205,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\inaddr.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\qos.h
 C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying\NetworkComponent.generated.h
 C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying\HostNetworkComponent.generated.h
+C:\Unreal Projects\Network-Game-Development\Flying\Source\Flying/FlyingPawn.h
+C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying\FlyingPawn.generated.h
+C:\Unreal Projects\Network-Game-Development\Flying\Source\Flying/HostFlyingPawn.h
+C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying\HostFlyingPawn.generated.h

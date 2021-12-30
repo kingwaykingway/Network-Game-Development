@@ -14,6 +14,7 @@ struct UDPMessage
 	uint32 playerID;
 	FVector location;
 	FQuat rotation;
+	float speed;
 };
 
 enum EventType { Fire, Hit, Death };
@@ -69,4 +70,10 @@ protected:
 private:
 	bool Initialize();
 	void Disconnect();
+
+protected:
+	// debug message
+	FString m;
+	bool printDetailMessage;
+	bool printErrorMessage;
 };

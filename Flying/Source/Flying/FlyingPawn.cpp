@@ -64,9 +64,6 @@ void AFlyingPawn::Tick(float DeltaSeconds)
 	// Rotate plane
 	AddActorLocalRotation(DeltaRotation);
 
-	const FString msg = GetName() + " speed=" + FString::SanitizeFloat(CurrentForwardSpeed);
-	GEngine->AddOnScreenDebugMessage(-1, DeltaSeconds, FColor::White, msg, true);
-
 	// Call any parent class Tick implementation
 	Super::Tick(DeltaSeconds);
 }
@@ -134,3 +131,18 @@ void AFlyingPawn::NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Oth
 //	// Smoothly interpolate roll speed
 //	CurrentRollSpeed = FMath::FInterpTo(CurrentRollSpeed, TargetRollSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
 //}
+
+float AFlyingPawn::GetCurrentForwardSpeed()
+{
+	return CurrentForwardSpeed;
+}
+
+int AFlyingPawn::GetPlayerID()
+{
+	return playerID;
+}
+
+void AFlyingPawn::SetPlayerID(int ID)
+{
+	this->playerID = ID;
+}

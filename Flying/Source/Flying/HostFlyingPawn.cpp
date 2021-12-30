@@ -6,7 +6,15 @@
 
 AHostFlyingPawn::AHostFlyingPawn() : AFlyingPawn()
 {
-	//NetworkComponent = CreateDefaultSubobject<UHostNetworkComponent>(TEXT("Network"));
+	NetworkComponent = CreateDefaultSubobject<UHostNetworkComponent>(TEXT("HostNetworkComponent"));
+}
+
+void AHostFlyingPawn::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+
+	//const FString m = GetName() + " speed=" + FString::SanitizeFloat(CurrentForwardSpeed);
+	//GEngine->AddOnScreenDebugMessage(-1, DeltaSeconds, FColor::White, m, true);
 }
 
 void AHostFlyingPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)

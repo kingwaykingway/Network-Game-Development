@@ -14,6 +14,8 @@ class FLYING_API UClientNetworkComponent : public UNetworkComponent
 {
 	GENERATED_BODY()
 
+	UClientNetworkComponent();
+
 private:
 	virtual bool UDPUpdate(float DeltaTime) override;
 	void Predict(float DeltaTime);

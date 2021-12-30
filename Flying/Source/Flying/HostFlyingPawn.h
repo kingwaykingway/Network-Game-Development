@@ -22,6 +22,8 @@ class FLYING_API AHostFlyingPawn : public AFlyingPawn
 public:
 	AHostFlyingPawn();
 
+	virtual void Tick(float DeltaSeconds) override;
+
 protected:
 
 	// Begin APawn overrides

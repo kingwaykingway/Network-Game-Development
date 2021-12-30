@@ -14,6 +14,8 @@ class FLYING_API UHostNetworkComponent : public UNetworkComponent
 {
 	GENERATED_BODY()
 
+	UHostNetworkComponent();
+
 private:
 	virtual bool UDPUpdate(float DeltaTime) override;
 };
