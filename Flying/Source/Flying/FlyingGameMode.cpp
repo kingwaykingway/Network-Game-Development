@@ -62,23 +62,23 @@ void AFlyingGameMode::StartPlay()
 	//);
 
 	//UGameplayStatics::SetPlayerControllerID
-	UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	//UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 
 	//m = FString::FromInt(GetWorld()->GetNumPlayerControllers());
 	//m = c1 == c2 ? "true" : "false";
 	//m = FString::FromInt(GetWorld()->GetPlayerControllerIterator().GetIndex());
 	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, m);
 
-	int i = 0;
-	APawn* p;
-	while (true)
-	{
-		p = UGameplayStatics::GetPlayerPawn(GetWorld(), i);
-		if (!p) break;
-		m = FString::FromInt(i) 
-			+ ", " + FString::FromInt(p->GetUniqueID()) 
-			+ ", " + p->GetName();
-		GEngine->AddOnScreenDebugMessage(-1, 1000.0f, FColor::White, m);
-		i++;
-	}
+	//int i = 0;
+	//APawn* p;
+	//while (true)
+	//{
+	//	p = UGameplayStatics::GetPlayerPawn(GetWorld(), i);
+	//	if (!p) break;
+	//	m = FString::FromInt(i) 
+	//		+ ", " + FString::FromInt(p->GetUniqueID()) 
+	//		+ ", " + p->GetName();
+	//	GEngine->AddOnScreenDebugMessage(-1, 1000.0f, FColor::White, m);
+	//	i++;
+	//}
 }

@@ -2,7 +2,15 @@
 
 #pragma once
 
-#include <winsock2.h>
+//#include <winsock2.h>
+
+//#include "Networking.h"
+//#include "Sockets.h"
+//#include "SocketSubsystem.h"
+
+#include "Runtime/Networking/Public/Networking.h"
+#include "Runtime/Sockets/Public/Sockets.h"
+#include "Runtime/Sockets/Public/SocketSubsystem.h"
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
@@ -51,8 +59,11 @@ protected:
 	UPROPERTY(Category = Network, EditAnywhere)
 	int32 m_port;
 
-	sockaddr_in m_address;
-	SOCKET m_UDP_socket, m_TCP_socket;
+	//sockaddr_in m_address;
+	//SOCKET m_UDP_socket, m_TCP_socket;
+	FIPv4Address m_address;
+	FSocket* m_UDP_socket;
+	FSocket* m_TCP_socket;
 
 	//TSharedPtr<FReceiveThread> receiveThread;
 
@@ -67,8 +78,8 @@ protected:
 	APawn* m_owner;
 	int m_playerID;
 
-private:
-	bool Initialize();
+//private:
+//	bool Initialize();
 	void Disconnect();
 
 protected:
