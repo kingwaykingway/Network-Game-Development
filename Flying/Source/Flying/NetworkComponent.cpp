@@ -10,9 +10,9 @@ UNetworkComponent::UNetworkComponent()
 
 	//m_ip = "255.255.255.255";
 	//m_ip = "0.0.0.0";
-	m_ip = "127.0.0.1";
-	m_port = 8888;
-	//m_port = 4444;
+	m_ip = "0.0.0.0";
+	//m_port = 8888;
+	m_port = 4444;
 
 	printDetailMessage = true;
 	printErrorMessage = true;
@@ -96,7 +96,7 @@ bool UNetworkComponent::UDPConnect()
 	addr.Get().SetIp(m_address.Value);
 	//addr.Get().SetPort(m_port);
 
-	for (int32 i = 4444; i < 8888; i++)
+	for (int32 i = 0000; i < 8888; i++)
 	{
 		m_port = i;
 		addr.Get().SetPort(m_port);

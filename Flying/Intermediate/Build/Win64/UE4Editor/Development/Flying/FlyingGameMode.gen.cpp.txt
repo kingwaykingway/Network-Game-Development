@@ -1,9 +1,0 @@
-C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Development\Flying\Definitions.Flying.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Unreal Projects\Network-Game-Development\Flying\Source\Flying/FlyingGameMode.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Unreal Projects\Network-Game-Development\Flying\Intermediate\Build\Win64\UE4Editor\Inc\Flying\FlyingGameMode.generated.h
